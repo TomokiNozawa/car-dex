@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CarDex — 車種当てクイズ＆図鑑</title>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#1a212b; --panel2:#222c38; --line:#2c3949;
+    --txt:#e8edf3; --muted:#93a2b5; --accent:#37c2c4; --accent2:#4f8cff;
+    --ok:#3ddc84; --ng:#ff5d6c; --gold:#ffce4f; --radius:16px;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.6;padding-bottom:env(safe-area-inset-bottom)}
+  a{color:inherit}
+  button{font-family:inherit;cursor:pointer}
+  .wrap{max-width:780px;margin:0 auto;padding:14px 14px 90px}
+  header{position:sticky;top:0;z-index:20;background:rgba(15,20,25,.92);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line)}
+  .head-in{max-width:780px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:12px 14px}
+  .logo{font-weight:800;font-size:20px;letter-spacing:.5px;display:flex;align-items:center;gap:8px}
+  .logo .em{font-size:22px}
+  .logo small{color:var(--accent);font-weight:700;font-size:11px;background:rgba(55,194,196,.12);
+    padding:2px 8px;border-radius:999px;letter-spacing:.04em}
+  .spacer{flex:1}
+  /* bottom nav */
+  nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:30;background:rgba(20,27,36,.97);
+    backdrop-filter:blur(10px);border-top:1px solid var(--line);display:flex;
+    padding-bottom:env(safe-area-inset-bottom)}
+  nav.tabs button{flex:1;background:none;border:none;color:var(--muted);padding:9px 0 8px;
+    font-size:11px;display:flex;flex-direction:column;align-items:center;gap:3px;min-height:54px}
+  nav.tabs button .ic{font-size:20px;line-height:1}
+  nav.tabs button.active{color:var(--accent)}
+  .view{display:none;animation:fade .25s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+  h2.sec{font-size:15px;margin:18px 4px 10px;color:var(--muted);font-weight:700;letter-spacing:.04em}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:none;border-radius:12px;
+    padding:13px 16px;font-size:15px;font-weight:700;background:var(--accent);color:#04201f;min-height:46px}
+  .btn.alt{background:var(--panel2);color:var(--txt);border:1px solid var(--line)}
+  .btn.block{display:flex;width:100%}
+  .btn:active{transform:scale(.98)}
+  /* segmented controls */
+  .seg{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+  .seg .opt{flex:1;min-width:72px;text-align:center;background:var(--panel2);border:1px solid var(--line);
+    color:var(--muted);border-radius:10px;padding:9px 6px;font-size:13px;font-weight:600;min-height:42px}
+  .seg .opt.on{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04201f;border-color:transparent}
+  .lbl{font-size:12px;color:var(--muted);margin:12px 4px 2px;font-weight:700}
+  /* home hero */
+  .hero{background:linear-gradient(135deg,#16313a,#1d2533);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px 18px;margin-bottom:6px}
+  .hero h1{margin:0 0 4px;font-size:22px}
+  .hero p{margin:0;color:var(--muted);font-size:13px}
+  .statline{display:flex;gap:10px;margin-top:14px}
+  .stat{flex:1;background:rgba(255,255,255,.04);border-radius:12px;padding:10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800;color:var(--accent)}
+  .stat .t{font-size:11px;color:var(--muted)}
+  /* quiz */
+  #quizImgWrap{position:relative;width:100%;aspect-ratio:16/10;background:#000;border-radius:14px;overflow:hidden;
+    display:flex;align-items:center;justify-content:center}
+  #quizImg{width:100%;height:100%;object-fit:cover}
+  #quizImg.silhouette{filter:brightness(0) contrast(1);}
+  .q-top{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:13px;color:var(--muted)}
+  .pill{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-weight:700;font-size:12px}
+  .pill.score{color:var(--accent)} .pill.streak{color:var(--gold)}
+  .choices{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+  .choice{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 10px;color:var(--txt);
+    font-size:15px;font-weight:700;min-height:58px;display:flex;align-items:center;justify-content:center;gap:6px;
+    text-align:center;transition:.12s;position:relative}
+  .choice .k{position:absolute;left:8px;top:6px;font-size:10px;color:var(--muted);font-weight:700}
+  .choice.correct{background:rgba(61,220,132,.18);border-color:var(--ok);color:#bdf5d5}
+  .choice.wrong{background:rgba(255,93,108,.16);border-color:var(--ng);color:#ffc7cd}
+  .choice:disabled{opacity:1;cursor:default}
+  .feedback{margin-top:14px;border-radius:14px;padding:14px;border:1px solid var(--line);background:var(--panel)}
+  .feedback .res{font-size:17px;font-weight:800;margin-bottom:4px}
+  .feedback .res.ok{color:var(--ok)} .feedback .res.ng{color:var(--ng)}
+  .feedback .nm{font-size:16px;font-weight:800}
+  .feedback .meta{font-size:12px;color:var(--muted);margin:2px 0 8px}
+  .feedback .dist{font-size:13px;color:#cfe6e6;background:rgba(55,194,196,.08);border-radius:10px;padding:9px 11px}
+  .hintbar{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+  .hintbar button{background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:10px;
+    padding:8px 12px;font-size:12px;font-weight:700;min-height:40px}
+  /* zukan */
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .toolbar input,.toolbar select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    border-radius:10px;padding:10px 12px;font-size:14px;min-height:42px}
+  .toolbar input{flex:1;min-width:120px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+  .zcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-align:left;
+    padding:0;color:var(--txt);display:flex;flex-direction:column}
+  .zcard .ph{width:100%;aspect-ratio:4/3;background:#000;object-fit:cover;display:block}
+  .zcard .zb{padding:9px 10px}
+  .zcard .zn{font-weight:800;font-size:14px}
+  .zcard .zm{font-size:11px;color:var(--muted)}
+  .mbadge{display:inline-block;font-size:10px;font-weight:700;border-radius:999px;padding:1px 8px;margin-top:5px}
+  .m0{background:rgba(147,162,181,.18);color:var(--muted)}
+  .m1{background:rgba(79,140,255,.18);color:#9cc0ff}
+  .m2{background:rgba(255,206,79,.2);color:var(--gold)}
+  /* modal */
+  .ov{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
+    display:none;align-items:flex-end;justify-content:center}
+  .ov.open{display:flex}
+  .modal{background:var(--panel);width:100%;max-width:560px;max-height:92vh;overflow:auto;
+    border-radius:20px 20px 0 0;border:1px solid var(--line)}
+  @media(min-width:600px){.ov{align-items:center}.modal{border-radius:20px}}
+  .modal .mhead{position:sticky;top:0;background:var(--panel);display:flex;align-items:center;gap:10px;
+    padding:14px 16px;border-bottom:1px solid var(--line)}
+  .modal .mhead .mt{font-weight:800;font-size:18px;flex:1}
+  .modal .close{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:10px;
+    width:40px;height:40px;font-size:18px}
+  .gallery{display:flex;gap:8px;overflow-x:auto;padding:14px 16px;scroll-snap-type:x mandatory}
+  .gallery img{height:160px;border-radius:12px;scroll-snap-align:center;flex:0 0 auto;background:#000}
+  .mbody{padding:0 16px 18px}
+  .kv{display:flex;gap:8px;font-size:13px;margin:6px 0}
+  .kv .k{color:var(--muted);min-width:74px}
+  .credit{font-size:10px;color:#5c6b7d;margin-top:12px;word-break:break-all}
+  .empty{text-align:center;color:var(--muted);padding:40px 10px}
+  .danger{color:var(--ng);background:rgba(255,93,108,.1);border:1px solid rgba(255,93,108,.4)}
+  .wlist{display:flex;flex-direction:column;gap:8px}
+  .wrow{display:flex;align-items:center;gap:10px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:12px;padding:8px 10px}
+  .wrow img{width:54px;height:40px;object-fit:cover;border-radius:8px;background:#000}
+  .wrow .wn{flex:1;font-weight:700;font-size:14px}
+  .wrow .wr{font-size:12px;color:var(--ng);font-weight:700}
+</style>
+</head>
+<body>
+<header><div class="head-in">
+  <div class="logo"><span class="em">🚗</span>CarDex <small>β</small></div>
+  <div class="spacer"></div>
+  <div class="pill" id="hdMaster">—</div>
+</div></header>
+
+<div class="wrap">
+  <!-- HOME -->
+  <section class="view active" id="v-home">
+    <div class="hero">
+      <h1>車を覚えよう</h1>
+      <p>実車の写真から車種を当てるクイズと、見分け方つきの図鑑で学べます。</p>
+      <div class="statline">
+        <div class="stat"><div class="n" id="hMaster">0</div><div class="t">マスター</div></div>
+        <div class="stat"><div class="n" id="hSeen">0</div><div class="t">学習した車</div></div>
+        <div class="stat"><div class="n" id="hAcc">—</div><div class="t">正答率</div></div>
+      </div>
+    </div>
+
+    <h2 class="sec">クイズ設定</h2>
+    <div class="card">
+      <div class="lbl">出題タイプ</div>
+      <div class="seg" id="segMode">
+        <div class="opt on" data-v="model">車種を当てる</div>
+        <div class="opt" data-v="maker">メーカー</div>
+        <div class="opt" data-v="category">タイプ</div>
+      </div>
+      <div class="lbl">出題範囲</div>
+      <div class="seg" id="segRange"></div>
+      <div class="lbl">難易度</div>
+      <div class="seg" id="segDiff">
+        <div class="opt on" data-v="easy">やさしい</div>
+        <div class="opt" data-v="hard">むずかしい</div>
+      </div>
+      <div class="lbl">復習モード</div>
+      <div class="seg" id="segReview">
+        <div class="opt on" data-v="0">ふつう（学習優先）</div>
+        <div class="opt" data-v="1">苦手だけ復習</div>
+      </div>
+      <button class="btn block" style="margin-top:16px" onclick="startQuiz()">▶ クイズを始める</button>
+    </div>
+
+    <h2 class="sec">学ぶ</h2>
+    <div class="card" style="display:flex;gap:10px">
+      <button class="btn alt" style="flex:1" onclick="go('zukan')">📖 図鑑を見る</button>
+      <button class="btn alt" style="flex:1" onclick="go('stats')">📊 統計</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="view" id="v-quiz">
+    <div class="q-top">
+      <span class="pill score">スコア <b id="qScore">0</b></span>
+      <span class="pill streak">🔥 連続 <b id="qStreak">0</b></span>
+      <span class="spacer"></span>
+    </div>
+    <div id="quizImgWrap"><img id="quizImg" alt="この車は？"></div>
+    <div class="hintbar" id="hintBar">
+      <button onclick="hintSilhouette()" id="hintSil">🕶 シルエット</button>
+      <button onclick="hintMaker()" id="hintMk">🏷 メーカー</button>
+    </div>
+    <div class="choices" id="choices"></div>
+    <div id="feedback"></div>
+  </section>
+
+  <!-- ZUKAN -->
+  <section class="view" id="v-zukan">
+    <div class="toolbar">
+      <input id="zSearch" placeholder="🔍 車名・メーカーで検索" oninput="renderZukan()">
+      <select id="zMaker" onchange="renderZukan()"></select>
+      <select id="zCat" onchange="renderZukan()"></select>
+      <select id="zSort" onchange="renderZukan()">
+        <option value="name">名前順</option>
+        <option value="maker">メーカー順</option>
+        <option value="mastery">マスター度順</option>
+      </select>
+    </div>
+    <div id="zukanGrid" class="grid"></div>
+  </section>
+
+  <!-- STATS -->
+  <section class="view" id="v-stats">
+    <div class="hero">
+      <h1>学習の記録</h1>
+      <div class="statline">
+        <div class="stat"><div class="n" id="sMaster">0</div><div class="t">マスター</div></div>
+        <div class="stat"><div class="n" id="sLearn">0</div><div class="t">学習中</div></div>
+        <div class="stat"><div class="n" id="sAcc">—</div><div class="t">正答率</div></div>
+      </div>
+    </div>
+    <h2 class="sec">苦手な車（優先復習対象）</h2>
+    <div id="weakList" class="wlist"></div>
+    <h2 class="sec">データ</h2>
+    <div class="card">
+      <button class="btn danger block" onclick="resetProgress()">学習データをリセット</button>
+    </div>
+  </section>
+</div>
+
+<!-- modal -->
+<div class="ov" id="ov" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+</div>
+
+<nav class="tabs" id="tabs">
+  <button data-v="home" class="active" onclick="go('home')"><span class="ic">🏠</span>ホーム</button>
+  <button data-v="quiz" onclick="go('quiz')"><span class="ic">🎯</span>クイズ</button>
+  <button data-v="zukan" onclick="go('zukan')"><span class="ic">📖</span>図鑑</button>
+  <button data-v="stats" onclick="go('stats')"><span class="ic">📊</span>統計</button>
+</nav>
+
+<script>
+/* ============ state ============ */
+var CARS=[], CATS={}, PROG=load();
+var cfg={mode:'model',range:'all',diff:'easy',review:0};
+var cur=null; // current question
+
+function load(){try{return JSON.parse(localStorage.getItem('cardex_progress_v1'))||{}}catch(e){return{}}}
+function save(){localStorage.setItem('cardex_progress_v1',JSON.stringify(PROG))}
+function p(id){return PROG[id]||(PROG[id]={shown:0,correct:0,wrong:0,box:0,last:0})}
+function masteryLevel(id){var x=PROG[id];if(!x||x.shown===0)return 0;if(x.box>=4)return 2;return 1}
+function masteryLabel(l){return['未学習','学習中','マスター'][l]}
+
+/* ============ boot ============ */
+fetch('data/cars.json').then(r=>r.json()).then(d=>{
+  CARS=d.cars; CATS=d.categories||{};
+  buildRangeSeg(); buildZukanFilters(); bindSegs(); refreshHome();
+}).catch(e=>{
+  document.getElementById('v-home').innerHTML='<div class="card">データ読込に失敗しました。<br>ローカルで開く場合は簡易サーバ経由で開いてください。<br><small>'+e+'</small></div>';
+});
+
+/* ============ nav ============ */
+function go(v){
+  document.querySelectorAll('.view').forEach(s=>s.classList.remove('active'));
+  document.getElementById('v-'+v).classList.add('active');
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.v===v||(v==='home'&&b.dataset.v==='home')));
+  if(v==='zukan')renderZukan();
+  if(v==='stats')renderStats();
+  if(v==='home')refreshHome();
+  window.scrollTo(0,0);
+}
+
+/* ============ segmented controls ============ */
+function bindSegs(){
+  seg('segMode',v=>cfg.mode=v);
+  seg('segRange',v=>cfg.range=v);
+  seg('segDiff',v=>cfg.diff=v);
+  seg('segReview',v=>cfg.review=+v);
+}
+function seg(id,cb){
+  var el=document.getElementById(id);
+  el.addEventListener('click',e=>{
+    var o=e.target.closest('.opt'); if(!o)return;
+    el.querySelectorAll('.opt').forEach(x=>x.classList.remove('on'));
+    o.classList.add('on'); cb(o.dataset.v);
+  });
+}
+function buildRangeSeg(){
+  var el=document.getElementById('segRange');
+  var html='<div class="opt on" data-v="all">すべて</div>';
+  Object.keys(CATS).forEach(k=>{html+='<div class="opt" data-v="'+k+'">'+CATS[k]+'</div>';});
+  el.innerHTML=html;
+}
+
+/* ============ home ============ */
+function refreshHome(){
+  var seen=Object.values(PROG).filter(x=>x.shown>0).length;
+  var mast=CARS.filter(c=>masteryLevel(c.id)===2).length;
+  var tc=0,cc=0;Object.values(PROG).forEach(x=>{tc+=x.shown;cc+=x.correct});
+  var acc=tc?Math.round(cc/tc*100)+'%':'—';
+  set('hMaster',mast);set('hSeen',seen);set('hAcc',acc);
+  document.getElementById('hdMaster').textContent='マスター '+mast+'/'+CARS.length;
+}
+function set(id,v){var e=document.getElementById(id);if(e)e.textContent=v}
+
+/* ============ quiz ============ */
+function pool(){return cfg.range==='all'?CARS:CARS.filter(c=>c.category===cfg.range)}
+function startQuiz(){go('quiz');nextQuestion()}
+function pickTarget(ps){
+  if(cfg.review){
+    // 苦手優先: box昇順→shown(挑戦少)優先 だが未学習は後ろ
+    var seen=ps.filter(c=>p(c.id).shown>0);
+    var base=seen.length?seen:ps;
+    base=base.slice().sort((a,b)=>{var pa=p(a.id),pb=p(b.id);return pa.box-pb.box||pa.last-pb.last});
+    var top=base.slice(0,Math.max(5,Math.ceil(base.length*0.3)));
+    return top[Math.floor(Math.random()*top.length)];
+  }
+  // 学習優先: 出題回数が少ない車をやや優先
+  var w=ps.map(c=>({c,wt:1/(1+p(c.id).shown)}));
+  var sum=w.reduce((s,x)=>s+x.wt,0),r=Math.random()*sum;
+  for(var i=0;i<w.length;i++){r-=w[i].wt;if(r<=0)return w[i].c}
+  return ps[Math.floor(Math.random()*ps.length)];
+}
+function nextQuestion(){
+  var ps=pool(); if(ps.length<4){ps=CARS;}
+  var t=pickTarget(ps);
+  var img=t.images[Math.floor(Math.random()*t.images.length)];
+  var choices=buildChoices(t,ps);
+  cur={car:t,img:img,choices:choices,answered:false};
+  // render
+  var im=document.getElementById('quizImg');
+  im.classList.remove('silhouette'); im.src=img.file;
+  document.getElementById('feedback').innerHTML='';
+  document.getElementById('hintBar').style.visibility='visible';
+  resetHints();
+  var ch=document.getElementById('choices'); ch.innerHTML='';
+  choices.forEach((c,i)=>{
+    var b=document.createElement('button');
+    b.className='choice'; b.innerHTML='<span class="k">'+(i+1)+'</span>'+c.label;
+    b.onclick=()=>answer(i);
+    ch.appendChild(b);
+  });
+}
+function valueOf(car){
+  if(cfg.mode==='maker')return car.maker;
+  if(cfg.mode==='category')return CATS[car.category]||car.category;
+  return car.name;
+}
+function buildChoices(t,ps){
+  var correct=valueOf(t);
+  var set=[correct],items=[];
+  if(cfg.mode==='maker'){
+    var makers=[...new Set(CARS.map(c=>c.maker))].filter(m=>m!==correct);
+    shuffle(makers); items=makers.slice(0,3);
+  }else if(cfg.mode==='category'){
+    var cats=Object.values(CATS).filter(c=>c!==correct);
+    shuffle(cats); items=cats.slice(0,3);
+  }else{
+    // model: distractors are other car names
+    var others=(cfg.diff==='hard')
+      ? CARS.filter(c=>c.id!==t.id&&c.category===t.category)
+      : CARS.filter(c=>c.id!==t.id);
+    if(others.length<3)others=CARS.filter(c=>c.id!==t.id);
+    shuffle(others); items=others.slice(0,3).map(c=>c.name);
+  }
+  set=set.concat(items);
+  // ensure unique 4
+  set=[...new Set(set)]; var gi=0,allv=cfg.mode==='maker'?[...new Set(CARS.map(c=>c.maker))]:cfg.mode==='category'?Object.values(CATS):CARS.map(c=>c.name);
+  while(set.length<4&&gi<allv.length){if(!set.includes(allv[gi]))set.push(allv[gi]);gi++}
+  var arr=set.slice(0,4).map(v=>({label:v,correct:v===correct}));
+  shuffle(arr); return arr;
+}
+function answer(i){
+  if(cur.answered)return; cur.answered=true;
+  var t=cur.car, st=p(t.id); st.shown++; st.last=Date.now();
+  var ok=cur.choices[i].correct;
+  if(ok){st.correct++; st.box=Math.min(5,st.box+1); score++; streak++; bestStreak=Math.max(bestStreak,streak);}
+  else{st.wrong++; st.box=Math.max(0,st.box-1); streak=0;}
+  save();
+  var ch=document.getElementById('choices').children;
+  for(var k=0;k<ch.length;k++){
+    ch[k].disabled=true;
+    if(cur.choices[k].correct)ch[k].classList.add('correct');
+    else if(k===i)ch[k].classList.add('wrong');
+  }
+  // reveal full image if silhouette
+  document.getElementById('quizImg').classList.remove('silhouette');
+  set('qScore',score); set('qStreak',streak);
+  showFeedback(ok,t);
+}
+function showFeedback(ok,t){
+  var fb=document.getElementById('feedback');
+  var cat=CATS[t.category]||t.category;
+  fb.innerHTML=
+    '<div class="feedback">'
+    +'<div class="res '+(ok?'ok':'ng')+'">'+(ok?'⭕ 正解！':'❌ 不正解')+'</div>'
+    +'<div class="nm">'+t.maker+' '+t.name+'</div>'
+    +'<div class="meta">'+cat+'・'+t.bodyType+'・'+t.years+'</div>'
+    +'<div class="dist">👀 見分け方：'+t.distinguish+'</div>'
+    +'<button class="btn block" style="margin-top:12px" onclick="nextQuestion()">次の問題 ▶</button>'
+    +'<button class="btn alt block" style="margin-top:8px" onclick="openCar(\''+t.id+'\')">この車を図鑑で見る</button>'
+    +'</div>';
+  document.getElementById('hintBar').style.visibility='hidden';
+}
+/* score session */
+var score=0,streak=0,bestStreak=0;
+/* hints */
+function resetHints(){var s=document.getElementById('hintSil'),m=document.getElementById('hintMk');
+  if(cfg.mode==='model'){s.style.display='';m.style.display=''}else{s.style.display='';m.style.display='none'}
+  s.disabled=false;m.disabled=false}
+function hintSilhouette(){document.getElementById('quizImg').classList.add('silhouette');document.getElementById('hintSil').disabled=true}
+function hintMaker(){
+  // 不正解候補から、メーカーが異なるものを1つ消す（model時のみ）
+  if(cur.answered)return;
+  var ch=document.getElementById('choices').children;
+  for(var k=0;k<ch.length;k++){if(!cur.choices[k].correct&&!ch[k].disabled){ch[k].disabled=true;ch[k].style.opacity=.35;break}}
+  document.getElementById('hintMk').disabled=true;
+}
+
+/* ============ zukan ============ */
+function buildZukanFilters(){
+  var mk=document.getElementById('zMaker'),ct=document.getElementById('zCat');
+  var makers=[...new Set(CARS.map(c=>c.maker))];
+  mk.innerHTML='<option value="">全メーカー</option>'+makers.map(m=>'<option>'+m+'</option>').join('');
+  ct.innerHTML='<option value="">全タイプ</option>'+Object.keys(CATS).map(k=>'<option value="'+k+'">'+CATS[k]+'</option>').join('');
+}
+function renderZukan(){
+  var q=(document.getElementById('zSearch').value||'').toLowerCase();
+  var mk=document.getElementById('zMaker').value;
+  var ct=document.getElementById('zCat').value;
+  var sort=document.getElementById('zSort').value;
+  var list=CARS.filter(c=>{
+    if(mk&&c.maker!==mk)return false;
+    if(ct&&c.category!==ct)return false;
+    if(q&&!(c.name.toLowerCase().includes(q)||c.maker.toLowerCase().includes(q)||(c.makerEn||'').toLowerCase().includes(q)))return false;
+    return true;
+  });
+  if(sort==='name')list.sort((a,b)=>a.name.localeCompare(b.name,'ja'));
+  else if(sort==='maker')list.sort((a,b)=>a.maker.localeCompare(b.maker,'ja')||a.name.localeCompare(b.name,'ja'));
+  else if(sort==='mastery')list.sort((a,b)=>masteryLevel(b.id)-masteryLevel(a.id));
+  var g=document.getElementById('zukanGrid');
+  if(!list.length){g.innerHTML='<div class="empty">該当する車がありません</div>';return}
+  g.innerHTML=list.map(c=>{
+    var l=masteryLevel(c.id);
+    return '<button class="zcard" onclick="openCar(\''+c.id+'\')">'
+      +'<img class="ph" loading="lazy" src="'+(c.images[0]?c.images[0].file:'')+'" alt="'+c.name+'">'
+      +'<div class="zb"><div class="zn">'+c.name+'</div><div class="zm">'+c.maker+'・'+(CATS[c.category]||'')+'</div>'
+      +'<span class="mbadge m'+l+'">'+masteryLabel(l)+'</span></div></button>';
+  }).join('');
+}
+
+/* ============ modal ============ */
+function openCar(id){
+  var c=CARS.find(x=>x.id===id); if(!c)return;
+  var l=masteryLevel(id),st=PROG[id];
+  var gal=c.images.map(im=>'<img loading="lazy" src="'+im.file+'" alt="'+c.name+'">').join('');
+  var credits=c.images.map(im=>im.author+' / '+im.license).join(' ・ ');
+  var acc=st&&st.shown?Math.round(st.correct/st.shown*100)+'%（'+st.shown+'回）':'まだ出題なし';
+  document.getElementById('modal').innerHTML=
+    '<div class="mhead"><div class="mt">'+c.name+'</div>'
+    +'<span class="mbadge m'+l+'" style="align-self:center">'+masteryLabel(l)+'</span>'
+    +'<button class="close" onclick="closeModal()" aria-label="閉じる">✕</button></div>'
+    +'<div class="gallery">'+gal+'</div>'
+    +'<div class="mbody">'
+    +'<div class="kv"><span class="k">メーカー</span><span>'+c.maker+'（'+(c.makerEn||'')+'）</span></div>'
+    +'<div class="kv"><span class="k">タイプ</span><span>'+(CATS[c.category]||'')+'・'+c.bodyType+'</span></div>'
+    +'<div class="kv"><span class="k">年代</span><span>'+c.years+'</span></div>'
+    +'<div class="kv"><span class="k">特徴</span><span>'+(c.features||'')+'</span></div>'
+    +'<div class="dist" style="margin-top:6px">👀 見分け方：'+c.distinguish+'</div>'
+    +'<div class="kv" style="margin-top:10px"><span class="k">あなたの成績</span><span>'+acc+'</span></div>'
+    +'<div class="credit">📷 '+credits+'（Wikimedia Commons）</div>'
+    +'</div>';
+  openOv();
+}
+function openOv(){document.getElementById('ov').classList.add('open');document.body.classList.add('modal-open');document.body.style.overflow='hidden'}
+function closeModal(){document.getElementById('ov').classList.remove('open');document.body.classList.remove('modal-open');document.body.style.overflow=''}
+
+/* ============ stats ============ */
+function renderStats(){
+  var mast=CARS.filter(c=>masteryLevel(c.id)===2).length;
+  var learn=CARS.filter(c=>masteryLevel(c.id)===1).length;
+  var tc=0,cc=0;Object.values(PROG).forEach(x=>{tc+=x.shown;cc+=x.correct});
+  set('sMaster',mast);set('sLearn',learn);set('sAcc',tc?Math.round(cc/tc*100)+'%':'—');
+  var weak=CARS.filter(c=>{var x=PROG[c.id];return x&&x.shown>0&&x.box<3})
+    .sort((a,b)=>{var pa=PROG[a.id],pb=PROG[b.id];return pa.box-pb.box||(pb.wrong-pa.wrong)}).slice(0,15);
+  var w=document.getElementById('weakList');
+  if(!weak.length){w.innerHTML='<div class="empty">まだ苦手データがありません。クイズを解くと表示されます。</div>';return}
+  w.innerHTML=weak.map(c=>{var x=PROG[c.id];
+    return '<div class="wrow" onclick="openCar(\''+c.id+'\')">'
+    +'<img src="'+(c.images[0]?c.images[0].file:'')+'">'
+    +'<div class="wn">'+c.maker+' '+c.name+'</div>'
+    +'<div class="wr">'+x.correct+'/'+x.shown+'正解</div></div>';
+  }).join('');
+}
+function resetProgress(){
+  if(!confirm('学習データ（成績・マスター度）をすべて消去します。よろしいですか？'))return;
+  PROG={};save();refreshHome();renderStats();renderZukan();alert('リセットしました');
+}
+
+/* ============ utils & keyboard ============ */
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+document.addEventListener('keydown',e=>{
+  if(document.getElementById('ov').classList.contains('open')){if(e.key==='Escape')closeModal();return;}
+  var quizOpen=document.getElementById('v-quiz').classList.contains('active');
+  if(quizOpen&&!(cur&&cur.answered)&&['1','2','3','4'].includes(e.key)){
+    var idx=+e.key-1,ch=document.getElementById('choices').children;
+    if(ch[idx]&&!ch[idx].disabled)answer(idx);
+  }
+  if(quizOpen&&cur&&cur.answered&&(e.key==='Enter'||e.key===' ')){e.preventDefault();nextQuestion();}
+});
+</script>
+</body>
+</html>

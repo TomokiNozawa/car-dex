@@ -1,0 +1,1875 @@
+{
+  "version": "0.1",
+  "categories": {
+    "kei": "軽自動車",
+    "compact": "コンパクト",
+    "sedan": "セダン/ハッチ",
+    "minivan": "ミニバン",
+    "suv": "SUV",
+    "sports": "スポーツ",
+    "van": "商用バン"
+  },
+  "cars": [
+    {
+      "id": "yaris",
+      "name": "ヤリス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2020〜",
+      "features": "トヨタの売れ筋コンパクト。",
+      "distinguish": "小ぶりな5ドア。前のめりなフォルムと、下に向かって広がる逆台形の大きなグリル。",
+      "images": [
+        {
+          "file": "images/cars/yaris/yaris-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_(XP210)_1X7A1848.jpg"
+        },
+        {
+          "file": "images/cars/yaris/yaris-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_(XP210)_1X7A1846.jpg"
+        },
+        {
+          "file": "images/cars/yaris/yaris-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Hybrid_GR_Sport_(XP210)_Automesse_Ludwigsburg_2022_1X7A5892.jpg"
+        }
+      ]
+    },
+    {
+      "id": "yaris-cross",
+      "name": "ヤリス クロス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2020〜",
+      "features": "ヤリスを背高SUV化した小型SUV。",
+      "distinguish": "ヤリスより車高が高く、四角く張り出したホイールアーチと厚いバンパーでSUVらしい力強さ。",
+      "images": [
+        {
+          "file": "images/cars/yaris-cross/yaris-cross-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_(XP210)_1X7A1846.jpg"
+        },
+        {
+          "file": "images/cars/yaris-cross/yaris-cross-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_(XP210)_1X7A1848.jpg"
+        },
+        {
+          "file": "images/cars/yaris-cross/yaris-cross-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_GR_Sport_IMG_2145.jpg"
+        }
+      ]
+    },
+    {
+      "id": "aqua",
+      "name": "アクア",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2021〜",
+      "features": "燃費重視の人気ハイブリッド。",
+      "distinguish": "丸みのあるコンパクト5ドア。台形グリルと切れ長ヘッドライト。プリウスより一回り小さい。",
+      "images": [
+        {
+          "file": "images/cars/aqua/aqua-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2nd_generation_Toyota_Aqua_Z.jpg"
+        },
+        {
+          "file": "images/cars/aqua/aqua-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017-2021_Toyota_Aqua.jpg"
+        },
+        {
+          "file": "images/cars/aqua/aqua-3.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Aqua_Z_%2721_(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": "passo",
+      "name": "パッソ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2016〜",
+      "features": "小型で扱いやすいエントリーコンパクト。",
+      "distinguish": "全体に丸っこく可愛い印象。背は低め。丸目に近いヘッドライト。",
+      "images": [
+        {
+          "file": "images/cars/passo/passo-1.webp",
+          "author": "Turbo-myu-z",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2016_toyota_passo_x.JPG"
+        },
+        {
+          "file": "images/cars/passo/passo-2.webp",
+          "author": "Everyone Sinks Starco",
+          "license": "CC BY-SA 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Passo_(31364789034).jpg"
+        },
+        {
+          "file": "images/cars/passo/passo-3.webp",
+          "author": "Everyone Sinks Starco",
+          "license": "CC BY-SA 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Passo_(31830438680).jpg"
+        }
+      ]
+    },
+    {
+      "id": "roomy",
+      "name": "ルーミー",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "トールワゴン",
+      "category": "compact",
+      "years": "2016〜",
+      "features": "小さいのに背が高く広い人気コンパクト。",
+      "distinguish": "箱型で背が高く、後席は両側スライドドア。軽より一回り大きい小型車。",
+      "images": [
+        {
+          "file": "images/cars/roomy/roomy-1.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_ROOMY_CUSTOM_G-T_(DBA-M900A-AGBVJ)_front.jpg"
+        },
+        {
+          "file": "images/cars/roomy/roomy-2.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_ROOMY_G%22Cozy_Edition%222WD_(DBA-M900A-AGBGE(A))_front.jpg"
+        },
+        {
+          "file": "images/cars/roomy/roomy-3.webp",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Moscow,_Toyota_Roomy,_no_plates,_Aug_2025_02.jpg"
+        }
+      ]
+    },
+    {
+      "id": "raize",
+      "name": "ライズ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2019〜",
+      "features": "コンパクトで売れている小型SUV。",
+      "distinguish": "小ぶりで角張ったSUV。直線基調のボディと太いフロントグリル。",
+      "images": [
+        {
+          "file": "images/cars/raize/raize-1.webp",
+          "author": "天然ガス",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_203_(cropped).jpg"
+        },
+        {
+          "file": "images/cars/raize/raize-2.webp",
+          "author": "Ahri.boy",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Raize_2021_Red.jpg"
+        },
+        {
+          "file": "images/cars/raize/raize-3.webp",
+          "author": "Firzafp",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_(A250)_in_Palembang,_SS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "corolla",
+      "name": "カローラ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2019〜",
+      "features": "世界的ベストセラーの王道セダン。",
+      "distinguish": "オーソドックスな4ドアセダン。低めのワイドなグリルと逆台形の口元。",
+      "images": [
+        {
+          "file": "images/cars/corolla/corolla-1.webp",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Hybrid_Sedan,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1338).jpg"
+        },
+        {
+          "file": "images/cars/corolla/corolla-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_COROLLA_SEDAN_(E210)_China.jpg"
+        },
+        {
+          "file": "images/cars/corolla/corolla-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_COROLLA_SEDAN_(E210)_China_(5).jpg"
+        }
+      ]
+    },
+    {
+      "id": "corolla-touring",
+      "name": "カローラ ツーリング",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ステーションワゴン",
+      "category": "sedan",
+      "years": "2019〜",
+      "features": "カローラの荷室が広いワゴン。",
+      "distinguish": "セダンの後ろが伸びて屋根が後端まで続くワゴン形。リアが四角く長い。",
+      "images": [
+        {
+          "file": "images/cars/corolla-touring/corolla-touring-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Swace_1X7A0433.jpg"
+        },
+        {
+          "file": "images/cars/corolla-touring/corolla-touring-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Corolla_Touring_Sports_Hybrid_(E210)_IMG_7679.jpg"
+        },
+        {
+          "file": "images/cars/corolla-touring/corolla-touring-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Corolla_Touring_G.jpg"
+        }
+      ]
+    },
+    {
+      "id": "corolla-sport",
+      "name": "カローラ スポーツ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2018〜",
+      "features": "カローラの5ドアハッチ。",
+      "distinguish": "セダンより短いお尻のハッチバック。後ろがストンと切れ落ちる。",
+      "images": [
+        {
+          "file": "images/cars/corolla-sport/corolla-sport-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Swace_1X7A0433.jpg"
+        },
+        {
+          "file": "images/cars/corolla-sport/corolla-sport-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Suzuki_Swace_1X7A7186.jpg"
+        },
+        {
+          "file": "images/cars/corolla-sport/corolla-sport-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Suzuki_Swace_Auto_Zuerich_2023_1X7A1475.jpg"
+        }
+      ]
+    },
+    {
+      "id": "corolla-cross",
+      "name": "カローラ クロス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2021〜",
+      "features": "カローラ派生のミドルSUV。",
+      "distinguish": "ハリアーとRAV4の中間サイズのSUV。すっきりした面構成で角は控えめ。",
+      "images": [
+        {
+          "file": "images/cars/corolla-cross/corolla-cross-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_1X7A1861.jpg"
+        },
+        {
+          "file": "images/cars/corolla-cross/corolla-cross-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_1X7A1862.jpg"
+        },
+        {
+          "file": "images/cars/corolla-cross/corolla-cross-3.webp",
+          "author": "Elise240SX",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Corolla_Cross_L_FWD,_Front_Left,_11-21-2021.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prius",
+      "name": "プリウス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "1997〜 (現行2023〜)",
+      "features": "世界一有名なハイブリッド。",
+      "distinguish": "前から後ろへ一直線に伸びる流線型シルエット。鋭く吊り上がったヘッドライト。最も見分けやすい車のひとつ。",
+      "images": [
+        {
+          "file": "images/cars/prius/prius-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_(XW60)_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0006.jpg"
+        },
+        {
+          "file": "images/cars/prius/prius-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_(XW60)_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg"
+        },
+        {
+          "file": "images/cars/prius/prius-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_(XW60)_Plug-in_Hybrid_IMG_9905.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camry",
+      "name": "カムリ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2017〜",
+      "features": "カローラより上級の大柄セダン。",
+      "distinguish": "堂々とした大型4ドアセダン。下半分が大きく口を開けた台形グリル。",
+      "images": [
+        {
+          "file": "images/cars/camry/camry-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Camry_(XV70)_IMG_9081.jpg"
+        },
+        {
+          "file": "images/cars/camry/camry-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CAMRY_(XV70)_China_(5).jpg"
+        },
+        {
+          "file": "images/cars/camry/camry-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CAMRY_(XV70)_China_(15).jpg"
+        }
+      ]
+    },
+    {
+      "id": "crown-crossover",
+      "name": "クラウン クロスオーバー",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "クロスオーバー",
+      "category": "sedan",
+      "years": "2022〜",
+      "features": "新型クラウンの基本形。",
+      "distinguish": "セダンとSUVの中間。地上高が高めで、前後を細い一文字ライトが横切る。",
+      "images": [
+        {
+          "file": "images/cars/crown-crossover/crown-crossover-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Crossover_RS.jpg"
+        },
+        {
+          "file": "images/cars/crown-crossover/crown-crossover-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Crossover_RS_hybrid_transmission.jpg"
+        },
+        {
+          "file": "images/cars/crown-crossover/crown-crossover-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China.jpg"
+        }
+      ]
+    },
+    {
+      "id": "crown-sport",
+      "name": "クラウン スポーツ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUVクーペ",
+      "category": "suv",
+      "years": "2023〜",
+      "features": "クラウンのスポーティSUV。",
+      "distinguish": "屋根が後ろへなだらかに落ちるクーペ風SUV。塊感のある短めボディ。",
+      "images": [
+        {
+          "file": "images/cars/crown-sport/crown-sport-1.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Sport_Z_%2724_(1).jpg"
+        },
+        {
+          "file": "images/cars/crown-sport/crown-sport-2.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Sport_Z_%2724_(2).jpg"
+        },
+        {
+          "file": "images/cars/crown-sport/crown-sport-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_CROWN%22SPORT_Z%22_(6AA-AZSH36W-BNXGB)_%26_CROWN%22CROSOVER_RS_Advanced%22_(5AA-TZSH35-AETAT(F)).jpg"
+        }
+      ]
+    },
+    {
+      "id": "crown-sedan",
+      "name": "クラウン セダン",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2023〜",
+      "features": "正統派の大型ショーファーセダン。",
+      "distinguish": "全長の長い堂々とした3ボックスセダン。フォーマルで角の取れた品のある面構成。",
+      "images": [
+        {
+          "file": "images/cars/crown-sedan/crown-sedan-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Sedan_Z_Hybrid_front_left.jpg"
+        },
+        {
+          "file": "images/cars/crown-sedan/crown-sedan-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_SEDAN_(S230)_China.jpg"
+        },
+        {
+          "file": "images/cars/crown-sedan/crown-sedan-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_SEDAN_(S230)_China_(2).jpg"
+        }
+      ]
+    },
+    {
+      "id": "crown-estate",
+      "name": "クラウン エステート",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUVワゴン",
+      "category": "suv",
+      "years": "2024〜",
+      "features": "クラウンの背高ワゴン/SUV。",
+      "distinguish": "クラウンの中で最も後ろが長く、屋根が水平に後端まで伸びる。アウトドア寄り。",
+      "images": [
+        {
+          "file": "images/cars/crown-estate/crown-estate-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Crown_Estate_Z.jpg"
+        },
+        {
+          "file": "images/cars/crown-estate/crown-estate-2.webp",
+          "author": "Mytho88",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Estate_01.jpg"
+        },
+        {
+          "file": "images/cars/crown-estate/crown-estate-3.webp",
+          "author": "Calreyn88",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2003_Toyota_Crown_Estate_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mirai",
+      "name": "MIRAI",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "セダン(FCV)",
+      "category": "sedan",
+      "years": "2020〜",
+      "features": "水素で走る燃料電池の流麗セダン。",
+      "distinguish": "クーペのように低く流れる大型セダン。光沢のある面と低い車高で高級感。",
+      "images": [
+        {
+          "file": "images/cars/mirai/mirai-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Mirai_(JPD20)_IMG_5303.jpg"
+        },
+        {
+          "file": "images/cars/mirai/mirai-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Mirai_(JPD20)_Classic-Gala_2021_1X7A0174.jpg"
+        },
+        {
+          "file": "images/cars/mirai/mirai-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Mirai_(JPD20)_Classic-Gala_2021_1X7A0254.jpg"
+        }
+      ]
+    },
+    {
+      "id": "century",
+      "name": "センチュリー",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "高級車",
+      "category": "sedan",
+      "years": "2018〜",
+      "features": "日本最高峰のショーファーカー。",
+      "distinguish": "直線基調で重厚な箱型。エンブレムは翼を広げた鳳凰。圧倒的な大きさと格式。",
+      "images": [
+        {
+          "file": "images/cars/century/century-1.webp",
+          "author": "Mohammed Hamad",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Century_Bahrain.jpg"
+        },
+        {
+          "file": "images/cars/century/century-2.webp",
+          "author": "Mohammed Hamad",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Century_Bahrain_3.jpg"
+        },
+        {
+          "file": "images/cars/century/century-3.webp",
+          "author": "ラハール",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Imperial_Processional_Car.jpg"
+        }
+      ]
+    },
+    {
+      "id": "harrier",
+      "name": "ハリアー",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2020〜",
+      "features": "都会派の高級SUV。",
+      "distinguish": "なだらかに流れる屋根と上品な面構成。SUVだが背は高すぎず、クーペ風で優雅。",
+      "images": [
+        {
+          "file": "images/cars/harrier/harrier-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HARRIER_(XU80)_China.jpg"
+        },
+        {
+          "file": "images/cars/harrier/harrier-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HARRIER_(XU80)_China_(6).jpg"
+        },
+        {
+          "file": "images/cars/harrier/harrier-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HARRIER_(XU80)_China_(7).jpg"
+        }
+      ]
+    },
+    {
+      "id": "rav4",
+      "name": "RAV4",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2019〜",
+      "features": "タフ系で世界的人気のSUV。",
+      "distinguish": "角張ってゴツい。八角形を意識した張り出したフェンダーとスクエアなボディ。ハリアーより武骨。",
+      "images": [
+        {
+          "file": "images/cars/rav4/rav4-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg"
+        },
+        {
+          "file": "images/cars/rav4/rav4-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9891.jpg"
+        },
+        {
+          "file": "images/cars/rav4/rav4-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_RAV4_PHV.jpg"
+        }
+      ]
+    },
+    {
+      "id": "land-cruiser",
+      "name": "ランドクルーザー(300)",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "大型SUV",
+      "category": "suv",
+      "years": "2021〜",
+      "features": "最上級の本格クロカン。",
+      "distinguish": "大きく堂々とした重厚SUV。水平基調で押し出しの強い大型グリル。とにかく大きい。",
+      "images": [
+        {
+          "file": "images/cars/land-cruiser/land-cruiser-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Land_Cruieser_300_ZX.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser/land-cruiser-2.webp",
+          "author": "Christopher Crouzet",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Reflection_on_the_Salar_de_Uyuni,_bolivia.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser/land-cruiser-3.webp",
+          "author": "Autosdeprimera",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Land_Cruiser_300_3.4_ZX_(Colombia)_front_view_04.png"
+        }
+      ]
+    },
+    {
+      "id": "land-cruiser-250",
+      "name": "ランドクルーザー250",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "大型SUV",
+      "category": "suv",
+      "years": "2024〜",
+      "features": "プラド後継の本格SUV。",
+      "distinguish": "300より直線的でレトロ。丸目ヘッドライト仕様もあり、四角い昔ながらのクロカン顔。",
+      "images": [
+        {
+          "file": "images/cars/land-cruiser-250/land-cruiser-250-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_250_ZX_First_Edition.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser-250/land-cruiser-250-2.webp",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Land_Cruiser_Prado_250_2.4_Turbo_in_White_Pearl_Mica,_front_left.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser-250/land-cruiser-250-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_250_VX.jpg"
+        }
+      ]
+    },
+    {
+      "id": "land-cruiser-70",
+      "name": "ランドクルーザー70",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "大型SUV",
+      "category": "suv",
+      "years": "1984〜 (再販2023)",
+      "features": "無骨な昔ながらの実用クロカン。",
+      "distinguish": "完全に四角い昭和テイストの箱型。丸目ライトと角ばったフェンダー。飾り気のないタフさ。",
+      "images": [
+        {
+          "file": "images/cars/land-cruiser-70/land-cruiser-70-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Land_Cruiser_70_front_left.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser-70/land-cruiser-70-2.webp",
+          "author": "Yuya Tamai",
+          "license": "CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_land_cruiser_70.jpg"
+        },
+        {
+          "file": "images/cars/land-cruiser-70/land-cruiser-70-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Land_Cruiser_70.jpg"
+        }
+      ]
+    },
+    {
+      "id": "chr",
+      "name": "C-HR",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2016〜",
+      "features": "個性的なクーペSUV。",
+      "distinguish": "強く絞り込まれたリアと隠しドアハンドル。ダイヤモンド調の鋭い面でとにかく個性的。",
+      "images": [
+        {
+          "file": "images/cars/chr/chr-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_C-HR_Hybrid_(AX20)_DSC_7239.jpg"
+        },
+        {
+          "file": "images/cars/chr/chr-2.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_C-HR_G_%2717_(3).jpg"
+        },
+        {
+          "file": "images/cars/chr/chr-3.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_C-HR_G_%2717_(4).jpg"
+        }
+      ]
+    },
+    {
+      "id": "bz4x",
+      "name": "bZ4X",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "SUV(EV)",
+      "category": "suv",
+      "years": "2022〜",
+      "features": "トヨタの本格EV-SUV。",
+      "distinguish": "グリルレスでのっぺりした前面(EVの特徴)。黒い樹脂で囲まれたホイールアーチが目立つ。",
+      "images": [
+        {
+          "file": "images/cars/bz4x/bz4x-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg"
+        },
+        {
+          "file": "images/cars/bz4x/bz4x-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5897.jpg"
+        },
+        {
+          "file": "images/cars/bz4x/bz4x-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_bZ4X_1X7A7052.jpg"
+        }
+      ]
+    },
+    {
+      "id": "alphard",
+      "name": "アルファード",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2023〜",
+      "features": "高級ミニバンの代名詞。",
+      "distinguish": "巨大な縦長メッキグリルが顔の大半を占める。背が高く四角い高級ミニバン。",
+      "images": [
+        {
+          "file": "images/cars/alphard/alphard-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Alphard_Hybrid_X_E-Four.jpg"
+        },
+        {
+          "file": "images/cars/alphard/alphard-2.webp",
+          "author": "Benespit",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Alphard_Hybrid_(AH40)_2.jpg"
+        },
+        {
+          "file": "images/cars/alphard/alphard-3.webp",
+          "author": "Benespit",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Alphard_Hybrid_(AH40)_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "vellfire",
+      "name": "ヴェルファイア",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2023〜",
+      "features": "アルファードの兄弟、より精悍。",
+      "distinguish": "アルファードと同じ車体だが、グリルが横基調のメッシュで一段とワル顔・スポーティ。",
+      "images": [
+        {
+          "file": "images/cars/vellfire/vellfire-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Vellfire_Z_Premier.jpg"
+        },
+        {
+          "file": "images/cars/vellfire/vellfire-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_VELLFIRE_(AH40)_China_(2).jpg"
+        },
+        {
+          "file": "images/cars/vellfire/vellfire-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_VELLFIRE_(AH40)_China.jpg"
+        }
+      ]
+    },
+    {
+      "id": "noah",
+      "name": "ノア",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2022〜",
+      "features": "ファミリー定番のミドルミニバン。",
+      "distinguish": "アルファードより一回り小さい箱型ミニバン。両側スライドドア。穏やかな顔つき(ヴォクシーは派手顔)。",
+      "images": [
+        {
+          "file": "images/cars/noah/noah-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Noah_X.jpg"
+        },
+        {
+          "file": "images/cars/noah/noah-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Noah_Hybrid_S-G.jpg"
+        },
+        {
+          "file": "images/cars/noah/noah-3.webp",
+          "author": "Fueltank62",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:R90_Toyota_Noah_(Toho_Taxi_26).jpg"
+        }
+      ]
+    },
+    {
+      "id": "voxy",
+      "name": "ヴォクシー",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2022〜",
+      "features": "ノアの兄弟、押し出し強め。",
+      "distinguish": "ノアと同じ車体だが、黒く大きいワイドグリルで迫力顔。ノアより目つきが鋭い。",
+      "images": [
+        {
+          "file": "images/cars/voxy/voxy-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Voxy_R90_Hybrid_S-Z.jpg"
+        },
+        {
+          "file": "images/cars/voxy/voxy-2.webp",
+          "author": "Benespit",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Voxy_(R90)_in_White_Pearl_Crystal_Shine,_front_left.jpg"
+        },
+        {
+          "file": "images/cars/voxy/voxy-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_VOXY_HYBRID_(R90)_MACAU.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sienta",
+      "name": "シエンタ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "コンパクトミニバン",
+      "category": "minivan",
+      "years": "2022〜",
+      "features": "小型で扱いやすい3列ミニバン。",
+      "distinguish": "丸みがあり可愛い小型ミニバン。背が高く両側スライドドア。ノアより明らかに小さい。",
+      "images": [
+        {
+          "file": "images/cars/sienta/sienta-1.webp",
+          "author": "オーバードライブ83",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Sienta_Z_1.5_5BA-MXPC10G_(20220823).jpg"
+        },
+        {
+          "file": "images/cars/sienta/sienta-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Sienta_Hybrid_Z.jpg"
+        },
+        {
+          "file": "images/cars/sienta/sienta-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2018-2022_Toyota_Sienta_G_Cuero.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hiace",
+      "name": "ハイエース",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "バン/ワゴン",
+      "category": "van",
+      "years": "2004〜",
+      "features": "商用・送迎の超定番バン。",
+      "distinguish": "鼻先が短く、後ろへまっすぐ長く伸びる大きな箱。仕事車や送迎でよく見る。",
+      "images": [
+        {
+          "file": "images/cars/hiace/hiace-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HIACE_(H200)_China.jpg"
+        },
+        {
+          "file": "images/cars/hiace/hiace-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HIACE_(H200)_China_(2).jpg"
+        },
+        {
+          "file": "images/cars/hiace/hiace-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_HIACE_(H200)_China_(3).jpg"
+        }
+      ]
+    },
+    {
+      "id": "gr86",
+      "name": "GR86",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "スポーツ",
+      "category": "sports",
+      "years": "2021〜",
+      "features": "手頃な後輪駆動スポーツクーペ。",
+      "distinguish": "低く構えた小型2ドアクーペ。長いボンネットと低い屋根。スバルBRZと兄弟車。",
+      "images": [
+        {
+          "file": "images/cars/gr86/gr86-1.webp",
+          "author": "Fabian Roudra Baroi",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_BRZ_,_Toronto.jpg"
+        },
+        {
+          "file": "images/cars/gr86/gr86-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR86_IMG_7863.jpg"
+        },
+        {
+          "file": "images/cars/gr86/gr86-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR86_Auto_Zuerich_2023_1X7A1230.jpg"
+        }
+      ]
+    },
+    {
+      "id": "supra",
+      "name": "GRスープラ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "スポーツ",
+      "category": "sports",
+      "years": "2019〜",
+      "features": "トヨタの象徴的スポーツカー。",
+      "distinguish": "丸みのある筋肉質な2ドアクーペ。ぷっくり盛り上がったフェンダーとダブルバブルルーフ。",
+      "images": [
+        {
+          "file": "images/cars/supra/supra-1.webp",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9552-4.jpg"
+        },
+        {
+          "file": "images/cars/supra/supra-2.webp",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9570.jpg"
+        },
+        {
+          "file": "images/cars/supra/supra-3.webp",
+          "author": "Dietmar Rabich",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9563.jpg"
+        }
+      ]
+    },
+    {
+      "id": "gr-yaris",
+      "name": "GRヤリス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ホットハッチ",
+      "category": "sports",
+      "years": "2020〜",
+      "features": "ラリー由来の高性能3ドア。",
+      "distinguish": "ヤリスより幅広で低い3ドア。膨らんだフェンダーと専用の太いバンパー。屋根が後ろで一気に下がる。",
+      "images": [
+        {
+          "file": "images/cars/gr-yaris/gr-yaris-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR_Yaris_RZ_1X7A0252.jpg"
+        },
+        {
+          "file": "images/cars/gr-yaris/gr-yaris-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR_Yaris_RC_(2024)_Leonberg_2024_IMG_1063.jpg"
+        },
+        {
+          "file": "images/cars/gr-yaris/gr-yaris-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_Hybrid_GR_Sport_IMG_2145.jpg"
+        }
+      ]
+    },
+    {
+      "id": "gr-corolla",
+      "name": "GRカローラ",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "ホットハッチ",
+      "category": "sports",
+      "years": "2022〜",
+      "features": "カローラベースの本格ホットハッチ。",
+      "distinguish": "カローラ5ドアを幅広・低くした硬派ハッチ。膨らんだフェンダーと3本出しマフラー。",
+      "images": [
+        {
+          "file": "images/cars/gr-corolla/gr-corolla-1.webp",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR_Corolla_(E210)_Washington_DC_Metro_Area,_USA.jpg"
+        },
+        {
+          "file": "images/cars/gr-corolla/gr-corolla-2.webp",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR_Corolla_(E210)_Washington_DC_Metro_Area,_USA_(1).jpg"
+        },
+        {
+          "file": "images/cars/gr-corolla/gr-corolla-3.webp",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_GR_Corolla_(E210)_Washington_DC_Metro_Area,_USA_(2).jpg"
+        }
+      ]
+    },
+    {
+      "id": "probox",
+      "name": "プロボックス",
+      "maker": "トヨタ",
+      "makerEn": "Toyota",
+      "bodyType": "商用バン",
+      "category": "van",
+      "years": "2002〜",
+      "features": "営業・配達の働く小型バン。",
+      "distinguish": "鼻先が短い小型ワゴン/バン。実用一辺倒の素っ気ない箱型。仕事車として街中で大量に走る。",
+      "images": [
+        {
+          "file": "images/cars/probox/probox-1.webp",
+          "author": "TTTNIS",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Probox_Van_DX.jpg"
+        },
+        {
+          "file": "images/cars/probox/probox-2.webp",
+          "author": "MikaPr65",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Probox_Fleet.jpg"
+        },
+        {
+          "file": "images/cars/probox/probox-3.webp",
+          "author": "Rutger van der Maar",
+          "license": "CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Probox_1.5_GL_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "spacia",
+      "name": "スペーシア",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2023〜",
+      "features": "売れ筋の軽スーパーハイトワゴン。",
+      "distinguish": "背が高い四角い軽。両側スライドドア。スーツケースをモチーフにした丸目のライト。",
+      "images": [
+        {
+          "file": "images/cars/spacia/spacia-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021-2023_Suzuki_Spacia_Hybrid_X.jpg"
+        },
+        {
+          "file": "images/cars/spacia/spacia-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Spacia_Hybrid_MK94S.jpg"
+        },
+        {
+          "file": "images/cars/spacia/spacia-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Spacia_Hybrid_X_Retro_Casual_Style.jpg"
+        }
+      ]
+    },
+    {
+      "id": "wagon-r",
+      "name": "ワゴンR",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2017〜",
+      "features": "軽トールワゴンの元祖。",
+      "distinguish": "背が高い軽だがスペーシアよりやや低め。スライドドアではなく通常ドア。",
+      "images": [
+        {
+          "file": "images/cars/wagon-r/wagon-r-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017-2022_Suzuki_Wagon_R_Hybrid_FX.jpg"
+        },
+        {
+          "file": "images/cars/wagon-r/wagon-r-2.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Wagon_R_Hybrid_FZ_%2717_(2).jpg"
+        },
+        {
+          "file": "images/cars/wagon-r/wagon-r-3.webp",
+          "author": "Turbo-myu-z",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_suzuki_wagon_r_hybrid_fz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hustler",
+      "name": "ハスラー",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "軽SUV",
+      "category": "kei",
+      "years": "2020〜",
+      "features": "遊び心あるカラフルな軽SUV。",
+      "distinguish": "丸目4灯ライトとツートンの派手な色使い。背が高くタフ系だが可愛い。",
+      "images": [
+        {
+          "file": "images/cars/hustler/hustler-1.webp",
+          "author": "Nord794ub",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Hustler_2014-2020.jpg"
+        },
+        {
+          "file": "images/cars/hustler/hustler-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020-2022_Suzuki_Hustler_Hybrid_X.jpg"
+        },
+        {
+          "file": "images/cars/hustler/hustler-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2020_(49)_-_Suzuki_HUSTLER_STREET_BASE.jpg"
+        }
+      ]
+    },
+    {
+      "id": "jimny",
+      "name": "ジムニー",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "軽SUV",
+      "category": "kei",
+      "years": "2018〜",
+      "features": "本格オフロードの小さな名車。",
+      "distinguish": "完全に四角い小さな箱。丸目ライトと外付けっぽい無骨なバンパー。唯一無二のミニクロカン。",
+      "images": [
+        {
+          "file": "images/cars/jimny/jimny-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021-2024_Suzuki_Jimny_XL.jpg"
+        },
+        {
+          "file": "images/cars/jimny/jimny-2.webp",
+          "author": "Shirley 501JFW",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:JMN18_Suzuki_Jimny_XG_JB64_1.jpg"
+        },
+        {
+          "file": "images/cars/jimny/jimny-3.webp",
+          "author": "Shirley 501JFW",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:JMN18_Suzuki_Jimny_XC_JB64_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "swift",
+      "name": "スイフト",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2017〜",
+      "features": "走りが楽しい小型ハッチ。",
+      "distinguish": "丸みを帯びたスポーティな5ドア。屋根後方が黒く塗られ、ドアハンドルがCピラーに隠れる。",
+      "images": [
+        {
+          "file": "images/cars/swift/swift-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Suzuki_Swift_Facelift_IMG_1884.jpg"
+        },
+        {
+          "file": "images/cars/swift/swift-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Suzuki_Swift_Facelift_IMG_1880.jpg"
+        },
+        {
+          "file": "images/cars/swift/swift-3.webp",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Suzuki_Swift_SZ5_Boosterjet_SHVS_1.0_Front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "n-box",
+      "name": "N-BOX",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2023〜",
+      "features": "日本で一番売れている車。",
+      "distinguish": "四角くて背が高い軽の代表格。広い室内と両側スライドドア。素直で親しみやすい顔。",
+      "images": [
+        {
+          "file": "images/cars/n-box/n-box-1.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_N-BOX_Joy_(6BA-JF5).jpg"
+        },
+        {
+          "file": "images/cars/n-box/n-box-2.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_N-BOX_(6BA-JF5).jpg"
+        },
+        {
+          "file": "images/cars/n-box/n-box-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_N-BOX_JOY_(6BA-JF5).jpg"
+        }
+      ]
+    },
+    {
+      "id": "n-wgn",
+      "name": "N-WGN",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2019〜",
+      "features": "シンプルで実直な軽。",
+      "distinguish": "N-BOXよりやや低い四角い軽。直線的で飾りの少ない素朴な顔。通常ドア。",
+      "images": [
+        {
+          "file": "images/cars/n-wgn/n-wgn-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2016-2019_Honda_N-WGN_C.jpg"
+        },
+        {
+          "file": "images/cars/n-wgn/n-wgn-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2019-2022_Honda_N-WGN_Custom_L_Turbo_with_optional_front_grille.jpg"
+        },
+        {
+          "file": "images/cars/n-wgn/n-wgn-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_N-WGN_G%E3%83%BBHonda_SENSING_(DBA-JH3)_%26_N-WGN_Custom_L%E3%83%BBHonda_SENSING_(DBA-JH3)_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "name": "フィット",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2020〜",
+      "features": "広くて使いやすい定番コンパクト。",
+      "distinguish": "丸目に近い優しい顔と、視界の良い大きな窓。全体に丸く親しみやすい5ドア。",
+      "images": [
+        {
+          "file": "images/cars/fit/fit-1.webp",
+          "author": "Calreyn88",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Honda_Jazz_Crosstar.jpg"
+        },
+        {
+          "file": "images/cars/fit/fit-2.webp",
+          "author": "Satvik.H.S",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:3rd_Generation_Honda_Jazz_(India).jpg"
+        },
+        {
+          "file": "images/cars/fit/fit-3.webp",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Honda_Jazz_SR_i-MMD_CVT_1.5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "vezel",
+      "name": "ヴェゼル",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2021〜",
+      "features": "スタイリッシュなコンパクトSUV。",
+      "distinguish": "屋根が後ろへ流れるクーペ風SUV。後席ドアハンドルがCピラーに隠れ、2ドアのように見える。",
+      "images": [
+        {
+          "file": "images/cars/vezel/vezel-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_HR-V_Hybrid_Auto_Zuerich_2021_IMG_0357.jpg"
+        },
+        {
+          "file": "images/cars/vezel/vezel-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_HR-V_Hybrid_Auto_Zuerich_2021_IMG_0356.jpg"
+        },
+        {
+          "file": "images/cars/vezel/vezel-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_HR-V_Hybrid_Auto_Zuerich_2021_IMG_0619.jpg"
+        }
+      ]
+    },
+    {
+      "id": "stepwgn",
+      "name": "ステップワゴン",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2022〜",
+      "features": "実用的なファミリーミニバン。",
+      "distinguish": "四角く実直な箱型ミニバン。現行は飾り気の少ないすっきりした顔。両側スライドドア。",
+      "images": [
+        {
+          "file": "images/cars/stepwgn/stepwgn-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_Step_WGN_RP8_e-HEV_Spada_Premium_Line.jpg"
+        },
+        {
+          "file": "images/cars/stepwgn/stepwgn-2.webp",
+          "author": "Ypy31",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_Step_WGN_e_HEV_Air_RP8.jpg"
+        },
+        {
+          "file": "images/cars/stepwgn/stepwgn-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Honda_Step_WGN_RP8_e-HEV_Spada.jpg"
+        }
+      ]
+    },
+    {
+      "id": "civic",
+      "name": "シビック",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2021〜",
+      "features": "走り重視のスポーティ5ドア。",
+      "distinguish": "低く長いスポーティなハッチバック。すっきり水平基調の上品な面構成。",
+      "images": [
+        {
+          "file": "images/cars/civic/civic-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HONDA_CIVIC_SEDAN_(FE,FL)_China.jpg"
+        },
+        {
+          "file": "images/cars/civic/civic-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HONDA_CIVIC_SEDAN_(FE,FL)_China_(3).jpg"
+        },
+        {
+          "file": "images/cars/civic/civic-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HONDA_CIVIC_SEDAN_(FE,FL)_China_(17).jpg"
+        }
+      ]
+    },
+    {
+      "id": "roox",
+      "name": "ルークス",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2020〜",
+      "features": "日産・三菱の軽スーパーハイトワゴン。",
+      "distinguish": "背の高い四角い軽。両側スライドドア。横長のグリルとシャープなライト。",
+      "images": [
+        {
+          "file": "images/cars/roox/roox-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2016-2020_Nissan_Dayz_Roox_Highway_Star_X.jpg"
+        },
+        {
+          "file": "images/cars/roox/roox-2.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_ROOX_AUTECH_2WD_(5AA-B44A)_front.jpg"
+        },
+        {
+          "file": "images/cars/roox/roox-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_ROOX_X_2WD_(5AA-B44A)_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "note",
+      "name": "ノート",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2020〜",
+      "features": "e-POWERで人気のコンパクト。",
+      "distinguish": "丸みのある5ドア。前後を細い一文字のライトが横切り、Vモーションの大型グリル。",
+      "images": [
+        {
+          "file": "images/cars/note/note-1.webp",
+          "author": "Taisyo",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_NOTE_E13_20201219-2.JPG"
+        },
+        {
+          "file": "images/cars/note/note-2.webp",
+          "author": "Taisyo",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_NOTE_E13_20201219-1.JPG"
+        },
+        {
+          "file": "images/cars/note/note-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_NOTE_X_(6AA-E13)_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "serena",
+      "name": "セレナ",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2022〜",
+      "features": "売れ筋のミドルミニバン。",
+      "distinguish": "四角い箱型ミニバン。大きなVモーショングリルと、後方が黒く塗られた浮遊屋根風デザイン。",
+      "images": [
+        {
+          "file": "images/cars/serena/serena-1.webp",
+          "author": "Dx6682",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_Serena_(C28)_AUTECH.jpg"
+        },
+        {
+          "file": "images/cars/serena/serena-2.webp",
+          "author": "Dx6682",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_Serena_(C28)_e-POWER_LUXION.jpg"
+        },
+        {
+          "file": "images/cars/serena/serena-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_Serena_C28_e-Power_Highway_Star_V.jpg"
+        }
+      ]
+    },
+    {
+      "id": "x-trail",
+      "name": "エクストレイル",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2022〜",
+      "features": "タフ系の人気ミドルSUV。",
+      "distinguish": "角張ったSUV。分割ヘッドライト(上に細いライト、下に丸い灯)と大きなVモーショングリル。",
+      "images": [
+        {
+          "file": "images/cars/x-trail/x-trail-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_(T33)_1X7A7179.jpg"
+        },
+        {
+          "file": "images/cars/x-trail/x-trail-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_e-Power_1X7A7056.jpg"
+        },
+        {
+          "file": "images/cars/x-trail/x-trail-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_e-Power_DSC_7092.jpg"
+        }
+      ]
+    },
+    {
+      "id": "gtr",
+      "name": "GT-R",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "スーパースポーツ",
+      "category": "sports",
+      "years": "2007〜",
+      "features": "世界に名だたる国産スーパーカー。",
+      "distinguish": "幅広で塊感のある2ドアクーペ。丸が4つ並んだ独特の丸型テールランプ。",
+      "iconic": true,
+      "images": [
+        {
+          "file": "images/cars/gtr/gtr-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:NISSAN_GT-R_(R35,_2011_FACELIFT)_China.jpg"
+        },
+        {
+          "file": "images/cars/gtr/gtr-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:NISSAN_GT-R_(R35)_China.jpg"
+        },
+        {
+          "file": "images/cars/gtr/gtr-3.webp",
+          "author": "Pangalau",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_GT-R_(R35,_2011_facelift)_in_Brunei_01.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tanto",
+      "name": "タント",
+      "maker": "ダイハツ",
+      "makerEn": "Daihatsu",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2019〜",
+      "features": "大開口が売りの軽スーパーハイト。",
+      "distinguish": "背が高い四角い軽。助手席側はピラーレスで大きく開く。丸みのある優しい顔。",
+      "images": [
+        {
+          "file": "images/cars/tanto/tanto-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2019-2022_Daihatsu_Tanto_Custom_RS.jpg"
+        },
+        {
+          "file": "images/cars/tanto/tanto-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2015-2019_Daihatsu_Tanto_Custom_RS.jpg"
+        },
+        {
+          "file": "images/cars/tanto/tanto-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2013-2019_Daihatsu_Tanto.jpg"
+        }
+      ]
+    },
+    {
+      "id": "move",
+      "name": "ムーヴ",
+      "maker": "ダイハツ",
+      "makerEn": "Daihatsu",
+      "bodyType": "軽トールワゴン",
+      "category": "kei",
+      "years": "2014〜",
+      "features": "ロングセラーの軽トールワゴン。",
+      "distinguish": "タントより少し低い四角い軽。通常ドア。シンプルで実用的な顔つき。",
+      "images": [
+        {
+          "file": "images/cars/move/move-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2014-2017_Daihatsu_Move_X.jpg"
+        },
+        {
+          "file": "images/cars/move/move-2.webp",
+          "author": "Benespit",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:0_Daihatsu_Move_(LA150)_1.jpg"
+        },
+        {
+          "file": "images/cars/move/move-3.webp",
+          "author": "Benespit",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:0_Daihatsu_Move_(LA150)_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mira-ese",
+      "name": "ミライース",
+      "maker": "ダイハツ",
+      "makerEn": "Daihatsu",
+      "bodyType": "軽",
+      "category": "kei",
+      "years": "2017〜",
+      "features": "低燃費・低価格のベーシック軽。",
+      "distinguish": "背が低めの普通の形の軽。装飾が少なく素っ気ない。軽の中では車高が低い部類。",
+      "images": [
+        {
+          "file": "images/cars/mira-ese/mira-ese-1.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Mira_e-S_X%22SA_III%22_%2717_(1).jpg"
+        },
+        {
+          "file": "images/cars/mira-ese/mira-ese-2.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Mira_e-S_G%22SA_III%22_%2717_(2).jpg"
+        },
+        {
+          "file": "images/cars/mira-ese/mira-ese-3.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Mira_e-S_G%22SA_III%22_%2717_(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": "mazda2",
+      "name": "MAZDA2",
+      "maker": "マツダ",
+      "makerEn": "Mazda",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2014〜",
+      "features": "走りと質感のコンパクト(旧デミオ)。",
+      "distinguish": "丸みのある上質な5ドア。マツダ共通の盾型大型グリルと切れ長ライト。",
+      "images": [
+        {
+          "file": "images/cars/mazda2/mazda2-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda2_(DJ)_Homura_1X7A0345.jpg"
+        },
+        {
+          "file": "images/cars/mazda2/mazda2-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda2_(DJ)_Homura_1X7A0343.jpg"
+        },
+        {
+          "file": "images/cars/mazda2/mazda2-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2023_Mazda2_(DJ)_1X7A2488.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mazda3",
+      "name": "MAZDA3",
+      "maker": "マツダ",
+      "makerEn": "Mazda",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2019〜",
+      "features": "美しさで評価の高いCセグ。",
+      "distinguish": "つるりと滑らかな面で映り込みが美しい。ハッチは太く色気のあるCピラー、セダンも流麗。",
+      "images": [
+        {
+          "file": "images/cars/mazda3/mazda3-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda3_(BP)_X_e-Skyactiv-X_IMG_9020.jpg"
+        },
+        {
+          "file": "images/cars/mazda3/mazda3-2.webp",
+          "author": "File:Mazda3 (BP) X e-Skyactiv-X IMG 9015.jpg: Alexander Migl derivative work: Zinnmann",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda3_(BP)_X_e-Skyactiv-X_IMG_9015_(edit_zm).jpg"
+        },
+        {
+          "file": "images/cars/mazda3/mazda3-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda3_(BP)_X_e-Skyactiv-X_IMG_9015.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cx-5",
+      "name": "CX-5",
+      "maker": "マツダ",
+      "makerEn": "Mazda",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2017〜",
+      "features": "マツダの主力ミドルSUV。",
+      "distinguish": "伸びやかで上品なSUV。盾型の大きなグリルと、ヘッドライトから繋がるメッキの一文字。",
+      "images": [
+        {
+          "file": "images/cars/cx-5/cx-5-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mazda_CX-5_(KF)_Facelift_1X7A0331_(2).jpg"
+        },
+        {
+          "file": "images/cars/cx-5/cx-5-2.webp",
+          "author": "EurovisionNim",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Mazda_CX-5_(KF)_Maxx_2WD_wagon_(2018-11-02)_02.jpg"
+        },
+        {
+          "file": "images/cars/cx-5/cx-5-3.webp",
+          "author": "EurovisionNim",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Mazda_CX-5_(KF)_Maxx_2WD_wagon_(2018-11-02)_01.jpg"
+        }
+      ]
+    },
+    {
+      "id": "forester",
+      "name": "フォレスター",
+      "maker": "スバル",
+      "makerEn": "Subaru",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2018〜",
+      "features": "視界と実用性に優れるSUV。",
+      "distinguish": "四角く背の高い実用SUV。大きな窓で視界が良く、コの字型のヘッドライト。飾らない手堅い顔。",
+      "images": [
+        {
+          "file": "images/cars/forester/forester-1.webp",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Forester,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0773).jpg"
+        },
+        {
+          "file": "images/cars/forester/forester-2.webp",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Forester_(SK)_Washington_DC_Metro_Area,_USA.jpg"
+        },
+        {
+          "file": "images/cars/forester/forester-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:SUBARU_FORESTER_(SK)_China_(8).jpg"
+        }
+      ]
+    },
+    {
+      "id": "impreza",
+      "name": "インプレッサ",
+      "maker": "スバル",
+      "makerEn": "Subaru",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2023〜",
+      "features": "走行安定性に定評のCセグ。",
+      "distinguish": "やや背高めのスポーティな5ドア。コの字型ライトと六角形グリルのスバル顔。",
+      "images": [
+        {
+          "file": "images/cars/impreza/impreza-1.webp",
+          "author": "MercurySable99",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Subaru_Impreza_Sedan,_front_left,_02-06-2023.jpg"
+        },
+        {
+          "file": "images/cars/impreza/impreza-2.webp",
+          "author": "Calreyn88",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Impreza_P1.jpg"
+        },
+        {
+          "file": "images/cars/impreza/impreza-3.webp",
+          "author": "MrWalkr",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_WRC_S12_LCC23.jpg"
+        }
+      ]
+    }
+  ]
+}
