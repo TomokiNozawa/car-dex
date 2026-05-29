@@ -65,8 +65,8 @@
 
 ## クラウン クロスオーバー (トヨタ)
 - images/cars/crown-crossover/crown-crossover-1.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:Toyota_Crown_Crossover_RS.jpg
-- images/cars/crown-crossover/crown-crossover-2.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:Toyota_Crown_Crossover_RS_hybrid_transmission.jpg
-- images/cars/crown-crossover/crown-crossover-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China.jpg
+- images/cars/crown-crossover/crown-crossover-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China.jpg
+- images/cars/crown-crossover/crown-crossover-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China_(2).jpg
 
 ## クラウン スポーツ (トヨタ)
 - images/cars/crown-sport/crown-sport-1.webp — Oq10pass / CC0 — https://commons.wikimedia.org/wiki/File:Toyota_Crown_Sport_Z_%2724_(1).jpg
@@ -164,9 +164,9 @@
 - images/cars/gr86/gr86-3.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Toyota_GR86_Auto_Zuerich_2023_1X7A1230.jpg
 
 ## GRスープラ (トヨタ)
-- images/cars/supra/supra-1.webp — Dietmar Rabich / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9552-4.jpg
-- images/cars/supra/supra-2.webp — Dietmar Rabich / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9570.jpg
-- images/cars/supra/supra-3.webp — Dietmar Rabich / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9563.jpg
+- images/cars/supra/supra-1.webp — Gold Pony / CC BY 3.0 — https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_(United_States).png
+- images/cars/supra/supra-2.webp — SsmIntrigue / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_09-08-2019_2.jpg
+- images/cars/supra/supra-3.webp — SsmIntrigue / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_09-08-2019_1.jpg
 
 ## GRヤリス (トヨタ)
 - images/cars/gr-yaris/gr-yaris-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Toyota_GR_Yaris_RZ_1X7A0252.jpg
@@ -294,11 +294,136 @@
 - images/cars/cx-5/cx-5-3.webp — EurovisionNim / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2017_Mazda_CX-5_(KF)_Maxx_2WD_wagon_(2018-11-02)_01.jpg
 
 ## フォレスター (スバル)
-- images/cars/forester/forester-1.webp — Matti Blume / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Forester,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0773).jpg
-- images/cars/forester/forester-2.webp — OWS Photography / CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Forester_(SK)_Washington_DC_Metro_Area,_USA.jpg
-- images/cars/forester/forester-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:SUBARU_FORESTER_(SK)_China_(8).jpg
+- images/cars/forester/forester-1.webp — EurovisionNim / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_01.jpg
+- images/cars/forester/forester-2.webp — MTSRider18 / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Subaru_Forester_2018_(SK)_CUV_Front.jpg
+- images/cars/forester/forester-3.webp — EurovisionNim / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_02.jpg
 
 ## インプレッサ (スバル)
-- images/cars/impreza/impreza-1.webp — MercurySable99 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2021_Subaru_Impreza_Sedan,_front_left,_02-06-2023.jpg
-- images/cars/impreza/impreza-2.webp — Calreyn88 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Impreza_P1.jpg
-- images/cars/impreza/impreza-3.webp — MrWalkr / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_WRC_S12_LCC23.jpg
+- images/cars/impreza/impreza-1.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Auto_Zuerich_2023_1X7A1416.jpg
+- images/cars/impreza/impreza-2.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Auto_Zuerich_2023_1X7A1260.jpg
+- images/cars/impreza/impreza-3.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Auto_Zuerich_2023_1X7A1263.jpg
+
+## NX (レクサス)
+- images/cars/lexus-nx/lexus-nx-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_NX_450h%2B_(AAZH26)_Auto_Zuerich_2021_IMG_0444.jpg
+- images/cars/lexus-nx/lexus-nx-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_NX_300_(AGZ10)_IMG_4832.jpg
+- images/cars/lexus-nx/lexus-nx-3.webp — Cxpr / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus-NX-450h%2B2021.jpg
+
+## RX (レクサス)
+- images/cars/lexus-rx/lexus-rx-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_RX_350_L_FL_1X7A0345.jpg
+- images/cars/lexus-rx/lexus-rx-2.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_RX_(AL10,_2022)_1X7A7245.jpg
+- images/cars/lexus-rx/lexus-rx-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:LEXUS_RX_350h_(AL10,_2022)_China_(18).jpg
+
+## UX (レクサス)
+- images/cars/lexus-ux/lexus-ux-1.webp — Matti Blume / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_UX_250h,_GIMS_2018,_Le_Grand-Saconnex_(1X7A0319).jpg
+- images/cars/lexus-ux/lexus-ux-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_UX_250h_Genf_2018.jpg
+- images/cars/lexus-ux/lexus-ux-3.webp — Matti Blume / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lexus_UX_250h,_GIMS_2018,_Le_Grand-Saconnex_(1X7A0364).jpg
+
+## LS (レクサス)
+- images/cars/lexus-ls/lexus-ls-1.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China.jpg
+- images/cars/lexus-ls/lexus-ls-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China_(2).jpg
+- images/cars/lexus-ls/lexus-ls-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China_(3).jpg
+
+## デリカD:5 (三菱)
+- images/cars/delica/delica-1.webp — CEFICEFI / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:MITSUBISHI_DELICA_D5_URBAN_GEAR_2019_03.jpg
+- images/cars/delica/delica-2.webp — Kestrel / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_Delica_D5_ALL_BLACKS_PB042122.jpg
+- images/cars/delica/delica-3.webp — CEFICEFI / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:MITSUBISHI_DELICA_D5_URBAN_GEAR_2019_02.jpg
+
+## アウトランダー (三菱)
+- images/cars/outlander/outlander-1.webp — Anonymousfox36 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_IMG001.jpg
+- images/cars/outlander/outlander-2.webp — Mariordo (Mario Roberto Durán Ortiz) / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_PHEV_CRI_08_2021_0611.jpg
+- images/cars/outlander/outlander-3.webp — Mariordo (Mario Roberto Durán Ortiz) / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_PHEV_CRI_12_2021_2704.jpg
+
+## eKクロス (三菱)
+- images/cars/ek-cross/ek-cross-1.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_(4AA-B35W-LTTZ)_front.jpg
+- images/cars/ek-cross/ek-cross-2.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_2WD_(4AA-B35W-LTTZ).jpg
+- images/cars/ek-cross/ek-cross-3.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_2WD_(4AA-B35W-LTTZ)_front.jpg
+
+## Cクラス (メルセデス・ベンツ)
+- images/cars/benz-c/benz-c-1.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(W206)_China_(17).jpg
+- images/cars/benz-c/benz-c-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(V206)_China.jpg
+- images/cars/benz-c/benz-c-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(V206)_China_(2).jpg
+
+## GLC (メルセデス・ベンツ)
+- images/cars/benz-glc/benz-glc-1.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLC_63_(X254)_IMG_0279.jpg
+- images/cars/benz-glc/benz-glc-2.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLC_63_(X254)_IMG_0288.jpg
+- images/cars/benz-glc/benz-glc-3.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mercedes-AMG_X254_43_IMG_9851.jpg
+
+## 3シリーズ (BMW)
+- images/cars/bmw-3/bmw-3-1.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_SEDAN_(G20)_China.jpg
+- images/cars/bmw-3/bmw-3-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_SEDAN_(G20)_China_(2).jpg
+- images/cars/bmw-3/bmw-3-3.webp — Mihnea Lazăr / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Romanian_Police_BMW_3_Series_G20_LCI_2.jpg
+
+## X3 (BMW)
+- images/cars/bmw-x3/bmw-x3-1.webp — Vauxford / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2018_BMW_X3_xDrive30d_M_Sport_Automatic_3.0_Front.jpg
+- images/cars/bmw-x3/bmw-x3-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:BMW_X3_M_(G01)_1X7A6436.jpg
+- images/cars/bmw-x3/bmw-x3-3.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:BMW_X3_M_(G01)_1X7A6435.jpg
+
+## A3 (アウディ)
+- images/cars/audi-a3/audi-a3-1.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(14).jpg
+- images/cars/audi-a3/audi-a3-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(16).jpg
+- images/cars/audi-a3/audi-a3-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(15).jpg
+
+## ゴルフ (フォルクスワーゲン)
+- images/cars/vw-golf/vw-golf-1.webp — Vauxford / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Front.jpg
+- images/cars/vw-golf/vw-golf-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_GOLF_(Mk8_CD1)_China_(2).jpg
+- images/cars/vw-golf/vw-golf-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_GOLF_(Mk8_CD1)_China.jpg
+
+## MINI (MINI)
+- images/cars/mini/mini-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mini_Hatch_(F56)_Electric_Pacesetter_IAA_2021_1X7A0050.jpg
+- images/cars/mini/mini-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mini_Hatch_(F56)_Electric_Pacesetter_IAA_2021_1X7A0049.jpg
+- images/cars/mini/mini-3.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2021_Mini_Hatch_(F56)_John_Cooper_Works_1X7A0150.jpg
+
+## XC60 (ボルボ)
+- images/cars/volvo-xc60/volvo-xc60-1.webp — Makizox / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60.jpg
+- images/cars/volvo-xc60/volvo-xc60-2.webp — Herranderssvensson / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60_2.jpg
+- images/cars/volvo-xc60/volvo-xc60-3.webp — Herranderssvensson / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60_1.jpg
+
+## ラングラー (ジープ)
+- images/cars/jeep-wrangler/jeep-wrangler-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0285.jpg
+- images/cars/jeep-wrangler/jeep-wrangler-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0287.jpg
+- images/cars/jeep-wrangler/jeep-wrangler-3.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0288.jpg
+
+## モデル3 (テスラ)
+- images/cars/tesla-3/tesla-3-1.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9282.jpg
+- images/cars/tesla-3/tesla-3-2.webp — Nikolai Bulykin / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,_Tesla_Model_3_%D0%BD%D0%B0_%D0%9A%D0%B0%D1%80%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0.jpg
+- images/cars/tesla-3/tesla-3-3.webp — Alexander-93 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_IMG_9488_(cropped).jpg
+
+## フィアット500 (フィアット)
+- images/cars/fiat-500/fiat-500-1.webp — Berthold Werner / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fiat_500_Luxus_BW_2016-07-17_14-02-29.jpg
+- images/cars/fiat-500/fiat-500-2.webp — Berthold Werner / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fiat_500_Luxus_BW_2016-07-17_14-03-33.jpg
+- images/cars/fiat-500/fiat-500-3.webp — Berthold Werner / CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fiat_500_Luxus_BW_2016-07-17_14-02-41.jpg
+
+## 911 (ポルシェ)
+- images/cars/porsche-911/porsche-911-1.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Porsche_992_Turbo_S_1X7A0413.jpg
+- images/cars/porsche-911/porsche-911-2.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Porsche_992_GT3_with_touring_package_1X7A6511.jpg
+- images/cars/porsche-911/porsche-911-3.webp — Alexander Migl / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Porsche_992_Carrera_S_coupe_IMG_5838.jpg
+
+## フリード (ホンダ)
+- images/cars/freed/freed-1.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:2019-2024_Honda_Freed%2B_Hybrid.jpg
+- images/cars/freed/freed-2.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:2019-2024_Honda_Freed_Hybrid_G.jpg
+- images/cars/freed/freed-3.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:2024_Honda_Freed_e-HEV_Air_EX.jpg
+
+## キックス (日産)
+- images/cars/kicks/kicks-1.webp — MercurySable99 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_SR,_front_right,_09-09-2023.jpg
+- images/cars/kicks/kicks-2.webp — MercurySable99 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_SR,_front_right.jpg
+- images/cars/kicks/kicks-3.webp — Chanokchon / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_e-Power_VL.jpg
+
+## サクラ (日産)
+- images/cars/sakura/sakura-1.webp — オーバードライブ83 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2022_Nissan_Sakura_X_ZAA-B6AW_(20220826).jpg
+- images/cars/sakura/sakura-2.webp — オーバードライブ83 / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2022_Nissan_Sakura_G_ZAA-B6AW_(20220819).jpg
+- images/cars/sakura/sakura-3.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Nissan_SAKURA_X_(KE0)_front.jpg
+
+## レヴォーグ (スバル)
+- images/cars/levorg/levorg-1.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Subaru_LEVORG_STI_Sport_EX_(VN5)_front.jpg
+- images/cars/levorg/levorg-2.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:The_frontview_of_Subaru_LEVORG_GT-H_EX_(4BA-VN5).jpg
+- images/cars/levorg/levorg-3.webp — Tokumeigakarinoaoshima / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2020_(186)_-_Subaru_LEVORG_PROTOTYPE_STI_Sport.jpg
+
+## アルト (スズキ)
+- images/cars/alto/alto-1.webp — TTTNIS / CC0 — https://commons.wikimedia.org/wiki/File:2021-2025_Suzuki_Alto_L.jpg
+- images/cars/alto/alto-2.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:SUZUKI_ALTO_China(1).jpg
+- images/cars/alto/alto-3.webp — Dinkun Chen / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:SUZUKI_ALTO_China(2).jpg
+
+## ロッキー (ダイハツ)
+- images/cars/rocky/rocky-1.webp — 天然ガス / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_203_(cropped).jpg
+- images/cars/rocky/rocky-2.webp — Oq10pass / CC0 — https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_L_%2719_(1).jpg
+- images/cars/rocky/rocky-3.webp — Oq10pass / CC0 — https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_L_%2719_(2).jpg

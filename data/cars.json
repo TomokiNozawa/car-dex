@@ -401,15 +401,15 @@
         },
         {
           "file": "images/cars/crown-crossover/crown-crossover-2.webp",
-          "author": "TTTNIS",
-          "license": "CC0",
-          "source": "https://commons.wikimedia.org/wiki/File:Toyota_Crown_Crossover_RS_hybrid_transmission.jpg"
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China.jpg"
         },
         {
           "file": "images/cars/crown-crossover/crown-crossover-3.webp",
           "author": "Dinkun Chen",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China.jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_CROWN_CROSSOVER_China_(2).jpg"
         }
       ]
     },
@@ -1015,21 +1015,21 @@
       "images": [
         {
           "file": "images/cars/supra/supra-1.webp",
-          "author": "Dietmar Rabich",
-          "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9552-4.jpg"
+          "author": "Gold Pony",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_(United_States).png"
         },
         {
           "file": "images/cars/supra/supra-2.webp",
-          "author": "Dietmar Rabich",
+          "author": "SsmIntrigue",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9570.jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_09-08-2019_2.jpg"
         },
         {
           "file": "images/cars/supra/supra-3.webp",
-          "author": "Dietmar Rabich",
+          "author": "SsmIntrigue",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9563.jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Toyota_GR_Supra_09-08-2019_1.jpg"
         }
       ]
     },
@@ -1822,21 +1822,21 @@
       "images": [
         {
           "file": "images/cars/forester/forester-1.webp",
-          "author": "Matti Blume",
+          "author": "EurovisionNim",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Forester,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0773).jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_01.jpg"
         },
         {
           "file": "images/cars/forester/forester-2.webp",
-          "author": "OWS Photography",
-          "license": "CC BY 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Forester_(SK)_Washington_DC_Metro_Area,_USA.jpg"
+          "author": "MTSRider18",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Forester_2018_(SK)_CUV_Front.jpg"
         },
         {
           "file": "images/cars/forester/forester-3.webp",
-          "author": "Dinkun Chen",
+          "author": "EurovisionNim",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:SUBARU_FORESTER_(SK)_China_(8).jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_02.jpg"
         }
       ]
     },
@@ -1852,22 +1852,779 @@
       "distinguish": "やや背高めのスポーティな5ドア。コの字型ライトと六角形グリルのスバル顔。",
       "images": [
         {
-          "file": "images/cars/impreza/impreza-1.webp",
-          "author": "MercurySable99",
-          "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:2021_Subaru_Impreza_Sedan,_front_left,_02-06-2023.jpg"
-        },
-        {
           "file": "images/cars/impreza/impreza-2.webp",
-          "author": "Calreyn88",
+          "author": "Alexander-93",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Impreza_P1.jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Auto_Zuerich_2023_1X7A1260.jpg"
         },
         {
           "file": "images/cars/impreza/impreza-3.webp",
-          "author": "MrWalkr",
+          "author": "Alexander-93",
           "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_WRC_S12_LCC23.jpg"
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Auto_Zuerich_2023_1X7A1263.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lexus-nx",
+      "name": "NX",
+      "maker": "レクサス",
+      "makerEn": "Lexus",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2021〜",
+      "features": "レクサスの売れ筋ミドルSUV。",
+      "distinguish": "紡錘形(スピンドル)の大型グリルが顔いっぱいを占める。流麗なクーペ風SUV。",
+      "images": [
+        {
+          "file": "images/cars/lexus-nx/lexus-nx-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_NX_450h%2B_(AAZH26)_Auto_Zuerich_2021_IMG_0444.jpg"
+        },
+        {
+          "file": "images/cars/lexus-nx/lexus-nx-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_NX_300_(AGZ10)_IMG_4832.jpg"
+        },
+        {
+          "file": "images/cars/lexus-nx/lexus-nx-3.webp",
+          "author": "Cxpr",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus-NX-450h%2B2021.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lexus-rx",
+      "name": "RX",
+      "maker": "レクサス",
+      "makerEn": "Lexus",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2022〜",
+      "features": "レクサスの上級SUV。",
+      "distinguish": "NXより一回り大きい。スピンドルグリルと、後端を一直線に横切るテールランプ。",
+      "images": [
+        {
+          "file": "images/cars/lexus-rx/lexus-rx-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_RX_350_L_FL_1X7A0345.jpg"
+        },
+        {
+          "file": "images/cars/lexus-rx/lexus-rx-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_RX_(AL10,_2022)_1X7A7245.jpg"
+        },
+        {
+          "file": "images/cars/lexus-rx/lexus-rx-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:LEXUS_RX_350h_(AL10,_2022)_China_(18).jpg"
+        }
+      ]
+    },
+    {
+      "id": "lexus-ux",
+      "name": "UX",
+      "maker": "レクサス",
+      "makerEn": "Lexus",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2018〜",
+      "features": "レクサスの小型SUV。",
+      "distinguish": "背が低めのコンパクトSUV。黒い樹脂フェンダーとスピンドルグリル。",
+      "images": [
+        {
+          "file": "images/cars/lexus-ux/lexus-ux-1.webp",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_UX_250h,_GIMS_2018,_Le_Grand-Saconnex_(1X7A0319).jpg"
+        },
+        {
+          "file": "images/cars/lexus-ux/lexus-ux-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_UX_250h_Genf_2018.jpg"
+        },
+        {
+          "file": "images/cars/lexus-ux/lexus-ux-3.webp",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lexus_UX_250h,_GIMS_2018,_Le_Grand-Saconnex_(1X7A0364).jpg"
+        }
+      ]
+    },
+    {
+      "id": "lexus-ls",
+      "name": "LS",
+      "maker": "レクサス",
+      "makerEn": "Lexus",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2017〜",
+      "features": "レクサス最上級セダン。",
+      "distinguish": "全長の長い堂々としたフラッグシップ。大きなスピンドルグリルと低く構えた車体。",
+      "images": [
+        {
+          "file": "images/cars/lexus-ls/lexus-ls-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China.jpg"
+        },
+        {
+          "file": "images/cars/lexus-ls/lexus-ls-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China_(2).jpg"
+        },
+        {
+          "file": "images/cars/lexus-ls/lexus-ls-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:LEXUS_LS_500h_F-SPORT_(XF50)_China_(3).jpg"
+        }
+      ]
+    },
+    {
+      "id": "delica",
+      "name": "デリカD:5",
+      "maker": "三菱",
+      "makerEn": "Mitsubishi",
+      "bodyType": "ミニバン",
+      "category": "minivan",
+      "years": "2019〜",
+      "features": "悪路も走れる個性派ミニバン。",
+      "distinguish": "ミニバンなのにSUV風の厳つい段付きフェイス。背が高く四角い。唯一無二の顔。",
+      "images": [
+        {
+          "file": "images/cars/delica/delica-2.webp",
+          "author": "Kestrel",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Delica_D5_ALL_BLACKS_PB042122.jpg"
+        },
+        {
+          "file": "images/cars/delica/delica-3.webp",
+          "author": "CEFICEFI",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:MITSUBISHI_DELICA_D5_URBAN_GEAR_2019_02.jpg"
+        }
+      ]
+    },
+    {
+      "id": "outlander",
+      "name": "アウトランダー",
+      "maker": "三菱",
+      "makerEn": "Mitsubishi",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2021〜",
+      "features": "三菱の3列ミドルSUV。",
+      "distinguish": "厚みのある力強いSUV。コの字を重ねたメッキグリル(ダイナミックシールド)と細い上ライト+下の大きな灯。",
+      "images": [
+        {
+          "file": "images/cars/outlander/outlander-1.webp",
+          "author": "Anonymousfox36",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_IMG001.jpg"
+        },
+        {
+          "file": "images/cars/outlander/outlander-2.webp",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_PHEV_CRI_08_2021_0611.jpg"
+        },
+        {
+          "file": "images/cars/outlander/outlander-3.webp",
+          "author": "Mariordo (Mario Roberto Durán Ortiz)",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_PHEV_CRI_12_2021_2704.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ek-cross",
+      "name": "eKクロス",
+      "maker": "三菱",
+      "makerEn": "Mitsubishi",
+      "bodyType": "軽",
+      "category": "kei",
+      "years": "2019〜",
+      "features": "三菱の軽(SUV風)。",
+      "distinguish": "軽にSUV風の段付きフロント。三菱のダイナミックシールド顔を小型化。",
+      "images": [
+        {
+          "file": "images/cars/ek-cross/ek-cross-1.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_(4AA-B35W-LTTZ)_front.jpg"
+        },
+        {
+          "file": "images/cars/ek-cross/ek-cross-2.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_2WD_(4AA-B35W-LTTZ).jpg"
+        },
+        {
+          "file": "images/cars/ek-cross/ek-cross-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_T_2WD_(4AA-B35W-LTTZ)_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "benz-c",
+      "name": "Cクラス",
+      "maker": "メルセデス・ベンツ",
+      "makerEn": "Mercedes-Benz",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2021〜",
+      "features": "メルセデスの中核セダン。",
+      "distinguish": "ボンネット先端に立つ三又星(スリーポインテッドスター)。曲面の美しい上品な4ドア。",
+      "images": [
+        {
+          "file": "images/cars/benz-c/benz-c-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(W206)_China_(17).jpg"
+        },
+        {
+          "file": "images/cars/benz-c/benz-c-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(V206)_China.jpg"
+        },
+        {
+          "file": "images/cars/benz-c/benz-c-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_C-CLASS_LWB_(V206)_China_(2).jpg"
+        }
+      ]
+    },
+    {
+      "id": "benz-glc",
+      "name": "GLC",
+      "maker": "メルセデス・ベンツ",
+      "makerEn": "Mercedes-Benz",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2022〜",
+      "features": "メルセデスの人気SUV。",
+      "distinguish": "Cクラスを背高SUV化。丸みのある面と、大きな星エンブレム入りグリル。",
+      "images": [
+        {
+          "file": "images/cars/benz-glc/benz-glc-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLC_63_(X254)_IMG_0279.jpg"
+        },
+        {
+          "file": "images/cars/benz-glc/benz-glc-2.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GLC_63_(X254)_IMG_0288.jpg"
+        },
+        {
+          "file": "images/cars/benz-glc/benz-glc-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_X254_43_IMG_9851.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bmw-3",
+      "name": "3シリーズ",
+      "maker": "BMW",
+      "makerEn": "BMW",
+      "bodyType": "セダン",
+      "category": "sedan",
+      "years": "2019〜",
+      "features": "BMWの定番スポーツセダン。",
+      "distinguish": "縦長2つのキドニーグリル(豚鼻)と丸2灯風ライト。低く構えたFRセダン。",
+      "images": [
+        {
+          "file": "images/cars/bmw-3/bmw-3-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_SEDAN_(G20)_China.jpg"
+        },
+        {
+          "file": "images/cars/bmw-3/bmw-3-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_SEDAN_(G20)_China_(2).jpg"
+        },
+        {
+          "file": "images/cars/bmw-3/bmw-3-3.webp",
+          "author": "Mihnea Lazăr",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Romanian_Police_BMW_3_Series_G20_LCI_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bmw-x3",
+      "name": "X3",
+      "maker": "BMW",
+      "makerEn": "BMW",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2017〜",
+      "features": "BMWのミドルSUV。",
+      "distinguish": "キドニーグリル付きのSUV。引き締まったスポーティな面構成。",
+      "images": [
+        {
+          "file": "images/cars/bmw-x3/bmw-x3-1.webp",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2018_BMW_X3_xDrive30d_M_Sport_Automatic_3.0_Front.jpg"
+        },
+        {
+          "file": "images/cars/bmw-x3/bmw-x3-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_X3_M_(G01)_1X7A6436.jpg"
+        },
+        {
+          "file": "images/cars/bmw-x3/bmw-x3-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BMW_X3_M_(G01)_1X7A6435.jpg"
+        }
+      ]
+    },
+    {
+      "id": "audi-a3",
+      "name": "A3",
+      "maker": "アウディ",
+      "makerEn": "Audi",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2020〜",
+      "features": "アウディのコンパクト。",
+      "distinguish": "横長の大きな六角形グリル(シングルフレーム)と、四つの輪のエンブレム。",
+      "images": [
+        {
+          "file": "images/cars/audi-a3/audi-a3-1.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(14).jpg"
+        },
+        {
+          "file": "images/cars/audi-a3/audi-a3-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(16).jpg"
+        },
+        {
+          "file": "images/cars/audi-a3/audi-a3-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(15).jpg"
+        }
+      ]
+    },
+    {
+      "id": "vw-golf",
+      "name": "ゴルフ",
+      "maker": "フォルクスワーゲン",
+      "makerEn": "Volkswagen",
+      "bodyType": "ハッチバック",
+      "category": "sedan",
+      "years": "2020〜",
+      "features": "世界的ベンチマークのハッチ。",
+      "distinguish": "端正で実直な5ドアハッチ。横basicの細いグリルにVWの丸エンブレム。",
+      "images": [
+        {
+          "file": "images/cars/vw-golf/vw-golf-1.webp",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Front.jpg"
+        },
+        {
+          "file": "images/cars/vw-golf/vw-golf-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_GOLF_(Mk8_CD1)_China_(2).jpg"
+        },
+        {
+          "file": "images/cars/vw-golf/vw-golf-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_GOLF_(Mk8_CD1)_China.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mini",
+      "name": "MINI",
+      "maker": "MINI",
+      "makerEn": "MINI",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2014〜",
+      "features": "英国生まれの個性派コンパクト。",
+      "distinguish": "丸目ヘッドライトと丸みのある小さな2/3ドア。ユニオンジャック風テール。",
+      "images": [
+        {
+          "file": "images/cars/mini/mini-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mini_Hatch_(F56)_Electric_Pacesetter_IAA_2021_1X7A0050.jpg"
+        },
+        {
+          "file": "images/cars/mini/mini-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mini_Hatch_(F56)_Electric_Pacesetter_IAA_2021_1X7A0049.jpg"
+        },
+        {
+          "file": "images/cars/mini/mini-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021_Mini_Hatch_(F56)_John_Cooper_Works_1X7A0150.jpg"
+        }
+      ]
+    },
+    {
+      "id": "volvo-xc60",
+      "name": "XC60",
+      "maker": "ボルボ",
+      "makerEn": "Volvo",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2017〜",
+      "features": "ボルボの人気SUV。",
+      "distinguish": "斜めのストライプ入り縦エンブレムと、T字(トールの槌)型ヘッドライト。端正な北欧SUV。",
+      "images": [
+        {
+          "file": "images/cars/volvo-xc60/volvo-xc60-1.webp",
+          "author": "Makizox",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60.jpg"
+        },
+        {
+          "file": "images/cars/volvo-xc60/volvo-xc60-2.webp",
+          "author": "Herranderssvensson",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60_2.jpg"
+        },
+        {
+          "file": "images/cars/volvo-xc60/volvo-xc60-3.webp",
+          "author": "Herranderssvensson",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "jeep-wrangler",
+      "name": "ラングラー",
+      "maker": "ジープ",
+      "makerEn": "Jeep",
+      "bodyType": "SUV",
+      "category": "suv",
+      "years": "2018〜",
+      "features": "本格オフロードの象徴。",
+      "distinguish": "丸目ライト＋縦7スリットグリル。四角く無骨で、屋根やドアを外せる。",
+      "images": [
+        {
+          "file": "images/cars/jeep-wrangler/jeep-wrangler-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0285.jpg"
+        },
+        {
+          "file": "images/cars/jeep-wrangler/jeep-wrangler-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0287.jpg"
+        },
+        {
+          "file": "images/cars/jeep-wrangler/jeep-wrangler-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0288.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tesla-3",
+      "name": "モデル3",
+      "maker": "テスラ",
+      "makerEn": "Tesla",
+      "bodyType": "セダン(EV)",
+      "category": "sedan",
+      "years": "2017〜",
+      "features": "テスラの売れ筋EVセダン。",
+      "distinguish": "グリルレスでつるりとした前面(EV)。極めてシンプルで滑らかな4ドア。",
+      "images": [
+        {
+          "file": "images/cars/tesla-3/tesla-3-1.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9282.jpg"
+        },
+        {
+          "file": "images/cars/tesla-3/tesla-3-2.webp",
+          "author": "Nikolai Bulykin",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,_Tesla_Model_3_%D0%BD%D0%B0_%D0%9A%D0%B0%D1%80%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0.jpg"
+        },
+        {
+          "file": "images/cars/tesla-3/tesla-3-3.webp",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_IMG_9488_(cropped).jpg"
+        }
+      ]
+    },
+    {
+      "id": "fiat-500",
+      "name": "フィアット500",
+      "maker": "フィアット",
+      "makerEn": "Fiat",
+      "bodyType": "コンパクト",
+      "category": "compact",
+      "years": "2007〜",
+      "features": "イタリアの可愛い小型車。",
+      "distinguish": "丸目とまんまるい小さなボディ。レトロでチャーミングな2ドア。",
+      "images": [
+        {
+          "file": "images/cars/fiat-500/fiat-500-1.webp",
+          "author": "Berthold Werner",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Fiat_500_Luxus_BW_2016-07-17_14-02-29.jpg"
+        },
+        {
+          "file": "images/cars/fiat-500/fiat-500-2.webp",
+          "author": "Berthold Werner",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Fiat_500_Luxus_BW_2016-07-17_14-03-33.jpg"
+        }
+      ]
+    },
+    {
+      "id": "porsche-911",
+      "name": "911",
+      "maker": "ポルシェ",
+      "makerEn": "Porsche",
+      "bodyType": "スポーツ",
+      "category": "sports",
+      "years": "2018〜",
+      "features": "スポーツカーの代名詞。",
+      "distinguish": "丸目ライトと、リアが盛り上がったなだらかな流線型クーペ。後ろにエンジン。",
+      "images": [
+        {
+          "file": "images/cars/porsche-911/porsche-911-1.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_992_Turbo_S_1X7A0413.jpg"
+        },
+        {
+          "file": "images/cars/porsche-911/porsche-911-2.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_992_GT3_with_touring_package_1X7A6511.jpg"
+        },
+        {
+          "file": "images/cars/porsche-911/porsche-911-3.webp",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Porsche_992_Carrera_S_coupe_IMG_5838.jpg"
+        }
+      ]
+    },
+    {
+      "id": "freed",
+      "name": "フリード",
+      "maker": "ホンダ",
+      "makerEn": "Honda",
+      "bodyType": "コンパクトミニバン",
+      "category": "minivan",
+      "years": "2024〜",
+      "features": "ちょうど良い小型3列ミニバン。",
+      "distinguish": "シエンタ似の小型ミニバン。背が高く両側スライド。すっきり優しい顔。",
+      "images": [
+        {
+          "file": "images/cars/freed/freed-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2019-2024_Honda_Freed%2B_Hybrid.jpg"
+        },
+        {
+          "file": "images/cars/freed/freed-2.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2019-2024_Honda_Freed_Hybrid_G.jpg"
+        },
+        {
+          "file": "images/cars/freed/freed-3.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2024_Honda_Freed_e-HEV_Air_EX.jpg"
+        }
+      ]
+    },
+    {
+      "id": "kicks",
+      "name": "キックス",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2020〜",
+      "features": "日産のコンパクトSUV。",
+      "distinguish": "e-POWERの小型SUV。Vモーショングリルと、屋根が黒いツートン(浮遊屋根)。",
+      "images": [
+        {
+          "file": "images/cars/kicks/kicks-1.webp",
+          "author": "MercurySable99",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_SR,_front_right,_09-09-2023.jpg"
+        },
+        {
+          "file": "images/cars/kicks/kicks-2.webp",
+          "author": "MercurySable99",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_SR,_front_right.jpg"
+        },
+        {
+          "file": "images/cars/kicks/kicks-3.webp",
+          "author": "Chanokchon",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_e-Power_VL.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sakura",
+      "name": "サクラ",
+      "maker": "日産",
+      "makerEn": "Nissan",
+      "bodyType": "軽(EV)",
+      "category": "kei",
+      "years": "2022〜",
+      "features": "日産の軽EV。",
+      "distinguish": "軽トールワゴン型のEV。グリルレスで水引模様の加飾。ルークス似の体格。",
+      "images": [
+        {
+          "file": "images/cars/sakura/sakura-1.webp",
+          "author": "オーバードライブ83",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Sakura_X_ZAA-B6AW_(20220826).jpg"
+        },
+        {
+          "file": "images/cars/sakura/sakura-2.webp",
+          "author": "オーバードライブ83",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Sakura_G_ZAA-B6AW_(20220819).jpg"
+        },
+        {
+          "file": "images/cars/sakura/sakura-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nissan_SAKURA_X_(KE0)_front.jpg"
+        }
+      ]
+    },
+    {
+      "id": "levorg",
+      "name": "レヴォーグ",
+      "maker": "スバル",
+      "makerEn": "Subaru",
+      "bodyType": "ステーションワゴン",
+      "category": "sedan",
+      "years": "2020〜",
+      "features": "スバルのスポーツワゴン。",
+      "distinguish": "低く長いステーションワゴン。コの字ライトと六角グリルのスバル顔。",
+      "images": [
+        {
+          "file": "images/cars/levorg/levorg-1.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Subaru_LEVORG_STI_Sport_EX_(VN5)_front.jpg"
+        },
+        {
+          "file": "images/cars/levorg/levorg-2.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Subaru_LEVORG_GT-H_EX_(4BA-VN5).jpg"
+        },
+        {
+          "file": "images/cars/levorg/levorg-3.webp",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2020_(186)_-_Subaru_LEVORG_PROTOTYPE_STI_Sport.jpg"
+        }
+      ]
+    },
+    {
+      "id": "alto",
+      "name": "アルト",
+      "maker": "スズキ",
+      "makerEn": "Suzuki",
+      "bodyType": "軽",
+      "category": "kei",
+      "years": "2021〜",
+      "features": "低燃費の定番ベーシック軽。",
+      "distinguish": "背が低めの素朴な軽。丸みのある小さなボディで装飾は控えめ。",
+      "images": [
+        {
+          "file": "images/cars/alto/alto-1.webp",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:2021-2025_Suzuki_Alto_L.jpg"
+        },
+        {
+          "file": "images/cars/alto/alto-2.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:SUZUKI_ALTO_China(1).jpg"
+        },
+        {
+          "file": "images/cars/alto/alto-3.webp",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:SUZUKI_ALTO_China(2).jpg"
+        }
+      ]
+    },
+    {
+      "id": "rocky",
+      "name": "ロッキー",
+      "maker": "ダイハツ",
+      "makerEn": "Daihatsu",
+      "bodyType": "コンパクトSUV",
+      "category": "suv",
+      "years": "2019〜",
+      "features": "ライズ兄弟の小型SUV。",
+      "distinguish": "ライズとほぼ同形の小型SUV(ダイハツ版)。角張ってタフ系、グリル意匠が異なる。",
+      "images": [
+        {
+          "file": "images/cars/rocky/rocky-1.webp",
+          "author": "天然ガス",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_203_(cropped).jpg"
+        },
+        {
+          "file": "images/cars/rocky/rocky-2.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_L_%2719_(1).jpg"
+        },
+        {
+          "file": "images/cars/rocky/rocky-3.webp",
+          "author": "Oq10pass",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Rocky_L_%2719_(2).jpg"
         }
       ]
     }

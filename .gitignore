@@ -1,0 +1,4 @@
+qa/
+.smoke.js
+.tmp_check.js
+*.tmp

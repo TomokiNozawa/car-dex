@@ -37,6 +37,10 @@ BAD_KEYWORDS = (
     "gauge", "trunk", "boot", "wheel", "rim", "logo", "emblem", "badge", "gearbox",
     "headlamp", "taillight", "tail light", "drawing", "blueprint", "diagram",
     "chassis", "frame", "cutaway", "assembly", "production line", "factory",
+    "powertrain", "transmission", "drivetrain",
+    # German (多くの車写真がドイツ語アップロード)
+    "innenraum", "kofferraum", "motorraum", "armaturenbrett", "lenkrad", "sitze",
+    "triebwerk", "fahrgestell", "schnittmodell", "felge", "getriebe",
 )
 
 
@@ -121,7 +125,7 @@ def search_images(term, candidates, min_width, exclude=None):
             continue
         low = title.lower()
         # 主画像は前方〜斜め前が望ましい。後方/真後ろは後ろに回す(学習用に保持はする)
-        is_rear = 1 if any(k in low for k in ("rear", "back", "behind", " r.jpg", "-r.jpg")) else 0
+        is_rear = 1 if any(k in low for k in ("rear", "back", "behind", " r.jpg", "-r.jpg", "heck", "rückseite", "rueckseite")) else 0
         out.append({
             "title": title,
             "thumb": ii.get("thumburl") or ii.get("url"),
