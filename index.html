@@ -170,6 +170,12 @@
       <button class="btn block" style="margin-top:16px" onclick="startQuiz()">▶ クイズを始める</button>
     </div>
 
+    <h2 class="sec">今日のチャレンジ</h2>
+    <div class="card">
+      <div id="dailyInfo" style="font-size:13px;color:var(--muted);margin-bottom:10px">毎日10問。</div>
+      <button class="btn block alt" onclick="startDaily()">📅 デイリーチャレンジ（10問）</button>
+    </div>
+
     <h2 class="sec">学ぶ</h2>
     <div class="card" style="display:flex;gap:10px">
       <button class="btn alt" style="flex:1" onclick="go('zukan')">📖 図鑑を見る</button>
@@ -179,11 +185,7 @@
 
   <!-- QUIZ -->
   <section class="view" id="v-quiz">
-    <div class="q-top">
-      <span class="pill score">スコア <b id="qScore">0</b></span>
-      <span class="pill streak">🔥 連続 <b id="qStreak">0</b></span>
-      <span class="spacer"></span>
-    </div>
+    <div class="q-top" id="qTop"></div>
     <div id="quizImgWrap"><img id="quizImg" alt="この車は？"></div>
     <div class="hintbar" id="hintBar">
       <button onclick="hintSilhouette()" id="hintSil">🕶 シルエット</button>
@@ -244,6 +246,7 @@
 var CARS=[], CATS={}, PROG=load();
 var cfg={mode:'model',range:'all',diff:'easy',review:0};
 var cur=null; // current question
+var daily={active:false,queue:[],idx:0,correct:0,savedCfg:null};
 
 function load(){try{return JSON.parse(localStorage.getItem('cardex_progress_v1'))||{}}catch(e){return{}}}
 function save(){localStorage.setItem('cardex_progress_v1',JSON.stringify(PROG))}
@@ -261,6 +264,7 @@ fetch('data/cars.json').then(r=>r.json()).then(d=>{
 
 /* ============ nav ============ */
 function go(v){
+  if(daily.active&&v!=='quiz'){daily.active=false;if(daily.savedCfg)cfg=daily.savedCfg;}
   document.querySelectorAll('.view').forEach(s=>s.classList.remove('active'));
   document.getElementById('v-'+v).classList.add('active');
   document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.v===v||(v==='home'&&b.dataset.v==='home')));
@@ -300,12 +304,13 @@ function refreshHome(){
   var acc=tc?Math.round(cc/tc*100)+'%':'—';
   set('hMaster',mast);set('hSeen',seen);set('hAcc',acc);
   document.getElementById('hdMaster').textContent='マスター '+mast+'/'+CARS.length;
+  refreshDaily();
 }
 function set(id,v){var e=document.getElementById(id);if(e)e.textContent=v}
 
 /* ============ quiz ============ */
 function pool(){return cfg.range==='all'?CARS:CARS.filter(c=>c.category===cfg.range)}
-function startQuiz(){go('quiz');nextQuestion()}
+function startQuiz(){daily.active=false;go('quiz');nextQuestion()}
 function pickTarget(ps){
   if(cfg.review){
     // 苦手優先: box昇順→shown(挑戦少)優先 だが未学習は後ろ
@@ -322,24 +327,36 @@ function pickTarget(ps){
   return ps[Math.floor(Math.random()*ps.length)];
 }
 function nextQuestion(){
+  if(daily.active)return nextDaily();
   var ps=pool(); if(ps.length<4){ps=CARS;}
   var t=pickTarget(ps);
-  var img=t.images[Math.floor(Math.random()*t.images.length)];
-  var choices=buildChoices(t,ps);
-  cur={car:t,img:img,choices:choices,answered:false};
-  // render
+  cur={car:t,img:t.images[Math.floor(Math.random()*t.images.length)],choices:buildChoices(t,ps),answered:false};
+  renderQuestion();
+}
+function renderQuestion(){
   var im=document.getElementById('quizImg');
-  im.classList.remove('silhouette'); im.src=img.file;
+  im.classList.remove('silhouette'); im.src=cur.img.file;
   document.getElementById('feedback').innerHTML='';
-  document.getElementById('hintBar').style.visibility='visible';
+  document.getElementById('hintBar').style.visibility=daily.active?'hidden':'visible';
   resetHints();
   var ch=document.getElementById('choices'); ch.innerHTML='';
-  choices.forEach((c,i)=>{
+  cur.choices.forEach((c,i)=>{
     var b=document.createElement('button');
     b.className='choice'; b.innerHTML='<span class="k">'+(i+1)+'</span>'+c.label;
     b.onclick=()=>answer(i);
     ch.appendChild(b);
   });
+  updateQTop();
+}
+function updateQTop(){
+  var t=document.getElementById('qTop');
+  if(daily.active){
+    t.innerHTML='<span class="pill" style="color:var(--accent2)">📅 デイリー <b>'+(daily.idx+1)+'/'+daily.queue.length+'</b></span>'
+      +'<span class="pill score">正解 <b>'+daily.correct+'</b></span>';
+  }else{
+    t.innerHTML='<span class="pill score">スコア <b>'+score+'</b></span>'
+      +'<span class="pill streak">🔥 連続 <b>'+streak+'</b></span>';
+  }
 }
 function valueOf(car){
   if(cfg.mode==='maker')return car.maker;
@@ -376,6 +393,7 @@ function answer(i){
   var ok=cur.choices[i].correct;
   if(ok){st.correct++; st.box=Math.min(5,st.box+1); score++; streak++; bestStreak=Math.max(bestStreak,streak);}
   else{st.wrong++; st.box=Math.max(0,st.box-1); streak=0;}
+  if(daily.active&&ok)daily.correct++;
   save();
   var ch=document.getElementById('choices').children;
   for(var k=0;k<ch.length;k++){
@@ -383,9 +401,8 @@ function answer(i){
     if(cur.choices[k].correct)ch[k].classList.add('correct');
     else if(k===i)ch[k].classList.add('wrong');
   }
-  // reveal full image if silhouette
   document.getElementById('quizImg').classList.remove('silhouette');
-  set('qScore',score); set('qStreak',streak);
+  updateQTop();
   showFeedback(ok,t);
 }
 function showFeedback(ok,t){
@@ -415,6 +432,60 @@ function hintMaker(){
   var ch=document.getElementById('choices').children;
   for(var k=0;k<ch.length;k++){if(!cur.choices[k].correct&&!ch[k].disabled){ch[k].disabled=true;ch[k].style.opacity=.35;break}}
   document.getElementById('hintMk').disabled=true;
+}
+
+/* ============ daily challenge ============ */
+function dailyKey(){var d=new Date();return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function dailyResult(){try{return JSON.parse(localStorage.getItem('cardex_daily_v1'))||{}}catch(e){return{}}}
+function buildDailyQueue(){
+  var rng=mulberry32(dailyKey()),arr=CARS.slice();
+  for(var i=arr.length-1;i>0;i--){var j=Math.floor(rng()*(i+1));var t=arr[i];arr[i]=arr[j];arr[j]=t}
+  return arr.slice(0,10).map(c=>({carId:c.id,imgIdx:Math.floor(rng()*c.images.length)}));
+}
+function startDaily(){
+  daily.savedCfg=Object.assign({},cfg);
+  daily.active=true; daily.idx=0; daily.correct=0; daily.queue=buildDailyQueue();
+  score=0; streak=0;
+  go('quiz'); showDailyQuestion();
+}
+function showDailyQuestion(){
+  var item=daily.queue[daily.idx], t=CARS.find(c=>c.id===item.carId);
+  cfg.mode='model';
+  cur={car:t,img:t.images[item.imgIdx%t.images.length],choices:buildChoices(t,CARS),answered:false};
+  renderQuestion();
+}
+function nextDaily(){
+  daily.idx++;
+  if(daily.idx>=daily.queue.length)return showDailyEnd();
+  showDailyQuestion();
+}
+function showDailyEnd(){
+  var r=dailyResult(),k=dailyKey();
+  if(r.date!==k)r={date:k,score:daily.correct,plays:1};
+  else{r.score=Math.max(r.score||0,daily.correct);r.plays=(r.plays||0)+1}
+  localStorage.setItem('cardex_daily_v1',JSON.stringify(r));
+  if(daily.savedCfg)cfg=daily.savedCfg;
+  daily.active=false;
+  var n=daily.correct, msg=n>=9?'🏆 ほぼ満点！すごい！':n>=7?'👏 いい調子！':n>=4?'🚗 その調子で覚えていこう':'📖 図鑑で見分け方をチェック！';
+  document.getElementById('choices').innerHTML='';
+  document.getElementById('quizImg').src='';
+  document.getElementById('qTop').innerHTML='';
+  document.getElementById('hintBar').style.visibility='hidden';
+  document.getElementById('feedback').innerHTML=
+    '<div class="feedback" style="text-align:center">'
+    +'<div class="res ok" style="font-size:30px">'+n+' / '+daily.queue.length+'</div>'
+    +'<div class="nm">'+msg+'</div>'
+    +'<div class="meta">今日のデイリーチャレンジ結果（最高記録を保存）</div>'
+    +'<button class="btn block" style="margin-top:12px" onclick="go(\'home\')">ホームへ</button>'
+    +'<button class="btn alt block" style="margin-top:8px" onclick="go(\'zukan\')">図鑑で復習する</button>'
+    +'</div>';
+}
+function refreshDaily(){
+  var el=document.getElementById('dailyInfo'); if(!el)return;
+  var r=dailyResult();
+  if(r.date===dailyKey())el.innerHTML='今日のベスト <b style="color:var(--accent)">'+r.score+'/10</b>（'+(r.plays||1)+'回挑戦）';
+  else el.innerHTML='毎日10問。今日はまだ未挑戦です。';
 }
 
 /* ============ zukan ============ */
