@@ -66,6 +66,8 @@
   .q-top{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:13px;color:var(--muted)}
   .pill{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-weight:700;font-size:12px}
   .pill.score{color:var(--accent)} .pill.streak{color:var(--gold)}
+  a.pill.nozaback{text-decoration:none;color:var(--accent);display:inline-flex;align-items:center;gap:2px}
+  a.pill.nozaback:active{transform:scale(.95)}
   .choices{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
   .choice{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 10px;color:var(--txt);
     font-size:15px;font-weight:700;min-height:58px;display:flex;align-items:center;justify-content:center;gap:6px;
@@ -131,6 +133,7 @@
 <header><div class="head-in">
   <div class="logo"><span class="em">🚗</span>CarDex <small>β</small></div>
   <div class="spacer"></div>
+  <a class="pill nozaback" href="https://tomokinozawa.github.io/dashboard/" title="NozaBoardへ戻る">🏠 NozaBoard</a>
   <div class="pill" id="hdMaster">—</div>
 </div></header>
 
